@@ -11633,6 +11633,12 @@
     },
     "done": true
   },
+  "grimoireofgaia:main/dullahan": {
+    "criteria": {
+      "kill": "2024-11-29 22:35:04 +0000"
+    },
+    "done": true
+  },
   "grimoireofgaia:recipes/misc/experience_iron": {
     "criteria": {
       "has_iron_box": "2024-11-29 22:35:49 +0000"
@@ -11669,9 +11675,9 @@
     },
     "done": true
   },
-  "grimoireofgaia:main/dullahan": {
+  "minecraft:adventure/lightning_rod_with_villager_no_fire": {
     "criteria": {
-      "kill": "2024-11-29 22:35:04 +0000"
+      "lightning_rod_with_villager_no_fire": "2024-11-29 23:02:04 +0000"
     },
     "done": true
   },
