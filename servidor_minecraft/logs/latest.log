@@ -5179,3 +5179,24 @@ Caused by: java.lang.NullPointerException: Cannot invoke "String.contains(java.l
 [29Nov2024 23:07:03.515] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Alexten22 issued server command: /auramobs reload
 [29Nov2024 23:07:03.529] [Server thread/INFO] [AuraMobs/]: Loaded 2 message files
 [29Nov2024 23:07:42.937] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Lvl 1 | Zombie | ❤ 0/149'/16992, l='ServerLevel[world]', x=1510.29, y=100.00, z=10539.50] died: Lvl 1 | Zombie | ❤ 0/149 burned to death
+[29Nov2024 23:11:52.481] [Server thread/INFO] [Console/]: %vault_prefix% Luisitoazp10 is bleeding so bad..
+[29Nov2024 23:12:13.016] [Server thread/INFO] [Console/]: %vault_prefix% Luisitoazp10 has been saved by %vault_prefix% Doom_Slayer246!
+[29Nov2024 23:13:08.340] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Axolotl['Axolotl  1 / 14'/11205, l='ServerLevel[world]', x=1367.50, y=-40.00, z=10556.50] died: Axolotl  1 / 14 died from dehydration
+[29Nov2024 23:13:50.475] [Async Chat Thread - #0/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doom_Slayer246> zzz
+[29Nov2024 23:14:23.746] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['Bat  2 / 6'/18476, l='ServerLevel[world]', x=1663.10, y=-16.49, z=10555.04] died: Bat  2 / 6 tried to swim in lava
+[29Nov2024 23:16:52.626] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Alexten22 issued server command: /auramobs reload
+[29Nov2024 23:16:52.634] [Server thread/INFO] [AuraMobs/]: Loaded 2 message files
+[29Nov2024 23:17:02.859] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['Bat  3 / 6'/18734, l='ServerLevel[world]', x=1496.22, y=9.03, z=10588.99] died: Bat  3 / 6 was eaten by a Dusktrap
+[29Nov2024 23:17:31.835] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['Bat  2 / 6'/18766, l='ServerLevel[world]', x=1649.93, y=-32.86, z=10565.25] died: Bat  2 / 6 tried to swim in lava
+[29Nov2024 23:17:38.077] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['GlowSquid  2 / 10'/18780, l='ServerLevel[world]', x=1630.03, y=2.00, z=10552.45] died: GlowSquid  2 / 10 drowned
+[29Nov2024 23:17:53.016] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Alexten22 issued server command: /gamemode creative
+[29Nov2024 23:17:53.016] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Alexten22: Set own game mode to Creative Mode]
+[29Nov2024 23:18:08.374] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Lvl 1 | Zombie | ❤ 0/149'/19145, l='ServerLevel[world]', x=1486.22, y=72.00, z=10640.78] died: Lvl 1 | Zombie | ❤ 0/149 was slain by Alexten22
+[29Nov2024 23:18:09.260] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[29Nov2024 23:18:18.223] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Lvl 1 | Zombie | ❤ 0/151'/19222, l='ServerLevel[world]', x=1489.50, y=73.00, z=10670.50] died: Lvl 1 | Zombie | ❤ 0/151 was slain by Alexten22
+[29Nov2024 23:18:20.126] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Axolotl['Axolotl  2 / 14'/1579, l='ServerLevel[world]', x=1516.47, y=-15.00, z=10608.00] died: Axolotl  2 / 14 died from dehydration
+[29Nov2024 23:18:52.680] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Alexten22 issued server command: /auramobs reload
+[29Nov2024 23:18:52.687] [Server thread/INFO] [AuraMobs/]: Loaded 2 message files
+[29Nov2024 23:18:57.868] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Lvl 1 | Zombie | ❤ 0/98'/19389, l='ServerLevel[world]', x=1484.86, y=76.00, z=10680.01] died: Lvl 1 | Zombie | ❤ 0/98 was slain by Alexten22
+[29Nov2024 23:19:02.767] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Lvl 1 | Zombie | ❤ 0/95'/19402, l='ServerLevel[world]', x=1481.50, y=77.00, z=10685.50] died: Lvl 1 | Zombie | ❤ 0/95 was slain by Alexten22
+[29Nov2024 23:19:07.041] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Bat['Bat  2 / 6'/19328, l='ServerLevel[world]', x=1448.14, y=-34.60, z=10709.11] died: Bat  2 / 6 tried to swim in lava
