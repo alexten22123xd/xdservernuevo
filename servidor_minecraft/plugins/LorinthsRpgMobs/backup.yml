@@ -592,6 +592,21 @@ Entity:
           Name: Cod
         '40':
           Name: Epic Cod
+    SALMON:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 3 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 2 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Salmon
+        '40':
+          Name: Epic Salmon
   Misc:
     Disabled: true
     BAT:
@@ -2475,3 +2490,108 @@ Entity:
           Name: Spore Braiomil
         '40':
           Name: Epic Spore Braiomil
+    BORN_IN_CHAOS_V1_LIFESTEALER:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 100 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 7 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Born In Chaos V1 Lifestealer
+        '40':
+          Name: Epic Born In Chaos V1 Lifestealer
+    BORN_IN_CHAOS_V1_SUPREME_BONESCALLER_STAGE_2:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 60 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 5 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Born In Chaos V1 Supreme Bonescaller Stage 2
+        '40':
+          Name: Epic Born In Chaos V1 Supreme Bonescaller Stage 2
+    ENEMYEXPANSION_LADYBUG:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 28 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 6 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Enemyexpansion Ladybug
+        '40':
+          Name: Epic Enemyexpansion Ladybug
+    BORN_IN_CHAOS_V1_MISSIONER:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 150 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 9 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Born In Chaos V1 Missioner
+        '40':
+          Name: Epic Born In Chaos V1 Missioner
+    UNDEAD_REVAMP2_THEHEAVY:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 120 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 0 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Undead Revamp2 Theheavy
+        '40':
+          Name: Epic Undead Revamp2 Theheavy
+    UNDEAD_REVAMP2_THEGLITER:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 30 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 4 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Undead Revamp2 Thegliter
+        '40':
+          Name: Epic Undead Revamp2 Thegliter
+    SPORE_SLASHER:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 35 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 10 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Spore Slasher
+        '40':
+          Name: Epic Spore Slasher
