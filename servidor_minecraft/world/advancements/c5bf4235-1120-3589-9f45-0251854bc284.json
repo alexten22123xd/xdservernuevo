@@ -16119,6 +16119,12 @@
     },
     "done": true
   },
+  "alchemistry:recipes/misc/dissolver": {
+    "criteria": {
+      "has_item": "2024-11-29 07:17:03 +0000"
+    },
+    "done": true
+  },
   "create:recipes/misc/crafting/palettes/scorchia": {
     "criteria": {
       "has_item": "2024-11-29 05:42:33 +0000"
@@ -16143,6 +16149,12 @@
     },
     "done": true
   },
+  "alchemistry:recipes/misc/combiner": {
+    "criteria": {
+      "has_item": "2024-11-29 07:17:03 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/small_scoria_brick_wall_from_stone_types_scoria_stonecutting": {
     "criteria": {
       "has_stone_types_scoria": "2024-11-29 05:42:33 +0000"
@@ -16155,9 +16167,21 @@
     },
     "done": true
   },
+  "alchemistry:recipes/misc/liquifier": {
+    "criteria": {
+      "has_item": "2024-11-29 07:17:03 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/small_scoria_bricks_from_stone_types_scoria_stonecutting": {
     "criteria": {
       "has_stone_types_scoria": "2024-11-29 05:42:33 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/misc/atomizer": {
+    "criteria": {
+      "has_item": "2024-11-29 07:17:03 +0000"
     },
     "done": true
   },
@@ -16200,6 +16224,12 @@
   "create:recipes/building_blocks/cut_scoria_from_stone_types_scoria_stonecutting": {
     "criteria": {
       "has_stone_types_scoria": "2024-11-29 05:42:33 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/misc/compactor": {
+    "criteria": {
+      "has_item": "2024-11-29 07:17:03 +0000"
     },
     "done": true
   },
