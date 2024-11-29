@@ -132,8 +132,10 @@
       "minecraft:snowy_plains": "2024-11-09 03:36:54 +0000",
       "minecraft:stony_shore": "2024-11-17 00:11:16 +0000",
       "minecraft:snowy_taiga": "2024-11-06 06:29:40 +0000",
+      "minecraft:dripstone_caves": "2024-11-29 06:32:10 +0000",
       "minecraft:cold_ocean": "2024-10-31 21:53:29 +0000",
       "minecraft:forest": "2024-11-16 06:10:27 +0000",
+      "minecraft:lush_caves": "2024-11-29 06:29:56 +0000",
       "minecraft:ice_spikes": "2024-11-16 05:56:27 +0000",
       "minecraft:frozen_ocean": "2024-11-09 03:31:42 +0000",
       "minecraft:desert": "2024-11-10 02:08:02 +0000",
@@ -11612,6 +11614,18 @@
   "aether:recipes/misc/aether_tune_enchanting": {
     "criteria": {
       "has_disc": "2024-11-29 06:18:29 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_veridium_slab_recycling": {
+    "criteria": {
+      "has_cut_veridium_slab": "2024-11-29 06:23:22 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_asurine_slab_recycling": {
+    "criteria": {
+      "has_polished_cut_asurine_slab": "2024-11-29 06:23:21 +0000"
     },
     "done": true
   },
