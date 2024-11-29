@@ -11617,15 +11617,15 @@
     },
     "done": true
   },
-  "create:recipes/building_blocks/cut_veridium_slab_recycling": {
-    "criteria": {
-      "has_cut_veridium_slab": "2024-11-29 06:23:22 +0000"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/polished_cut_asurine_slab_recycling": {
     "criteria": {
       "has_polished_cut_asurine_slab": "2024-11-29 06:23:21 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_veridium_slab_recycling": {
+    "criteria": {
+      "has_cut_veridium_slab": "2024-11-29 06:23:22 +0000"
     },
     "done": true
   },
