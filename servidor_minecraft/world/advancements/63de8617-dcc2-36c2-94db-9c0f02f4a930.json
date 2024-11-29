@@ -11579,5 +11579,41 @@
     },
     "done": true
   },
+  "alchemistry:recipes/misc/dissolver": {
+    "criteria": {
+      "has_item": "2024-11-29 05:54:16 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/misc/combiner": {
+    "criteria": {
+      "has_item": "2024-11-29 05:54:16 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/misc/liquifier": {
+    "criteria": {
+      "has_item": "2024-11-29 05:54:16 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/misc/atomizer": {
+    "criteria": {
+      "has_item": "2024-11-29 05:54:16 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/misc/compactor": {
+    "criteria": {
+      "has_item": "2024-11-29 05:54:16 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/misc/aether_tune_enchanting": {
+    "criteria": {
+      "has_disc": "2024-11-29 06:18:29 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
