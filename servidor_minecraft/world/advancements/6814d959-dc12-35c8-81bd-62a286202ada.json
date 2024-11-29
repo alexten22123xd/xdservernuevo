@@ -150,21 +150,9 @@
     },
     "done": false
   },
-  "rrc:root": {
-    "criteria": {
-      "rootcause": "2024-10-27 05:58:44 +0000"
-    },
-    "done": true
-  },
   "grimoireofgaia:main/root": {
     "criteria": {
       "join": "2024-10-27 05:58:44 +0000"
-    },
-    "done": true
-  },
-  "rrc:h-nigh": {
-    "criteria": {
-      "instaget": "2024-10-27 05:58:44 +0000"
     },
     "done": true
   },
@@ -7708,12 +7696,6 @@
   "handcrafted:recipes/misc/phantom_trophy": {
     "criteria": {
       "has_phantom_trophy": "2024-11-01 00:00:47 +0000"
-    },
-    "done": true
-  },
-  "h-nigh:cowards": {
-    "criteria": {
-      "Coward": "2024-11-01 00:00:55 +0000"
     },
     "done": true
   },
@@ -15643,39 +15625,9 @@
     },
     "done": true
   },
-  "twilightforest:twilight_hunter": {
-    "criteria": {
-      "raven": "2024-11-26 06:45:03 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/mangrove_hedge": {
-    "criteria": {
-      "has_mangrove_leaves": "2024-11-26 07:39:49 +0000"
-    },
-    "done": true
-  },
   "create:recipes/misc/smelting/glass_from_framed_glass": {
     "criteria": {
       "has_item": "2024-11-26 06:21:03 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/slicing/stick_from_mangrove_roots": {
-    "criteria": {
-      "has_mangrove_roots": "2024-11-26 07:39:44 +0000"
-    },
-    "done": true
-  },
-  "the_bumblezone:honey_crystal/obtain_glistering_honey_crystal_block": {
-    "criteria": {
-      "obtain_glistering_honey_crystal_block": "2024-11-26 07:19:10 +0000"
-    },
-    "done": true
-  },
-  "the_bumblezone:teleportation/teleport_out_of_bumblezone": {
-    "criteria": {
-      "teleport_out_of_bumblezone": "2024-11-26 07:16:44 +0000"
     },
     "done": true
   },
@@ -15691,11 +15643,41 @@
     },
     "done": true
   },
+  "twilightforest:root": {
+    "criteria": {
+      "make_portal": "2024-11-26 06:39:49 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:twilight_hunter": {
+    "criteria": {
+      "raven": "2024-11-26 06:45:03 +0000"
+    },
+    "done": true
+  },
   "nova_structures:nether/find_skeleton_tower": {
     "criteria": {
       "nova_structures:nether_skeleton_tower_soul": "2024-11-26 06:50:27 +0000"
     },
     "done": false
+  },
+  "the_bumblezone:teleportation/teleport_out_of_bumblezone": {
+    "criteria": {
+      "teleport_out_of_bumblezone": "2024-11-26 07:16:44 +0000"
+    },
+    "done": true
+  },
+  "the_bumblezone:honey_crystal/obtain_glistering_honey_crystal_block": {
+    "criteria": {
+      "obtain_glistering_honey_crystal_block": "2024-11-26 07:19:10 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/slicing/stick_from_mangrove_roots": {
+    "criteria": {
+      "has_mangrove_roots": "2024-11-26 07:39:44 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/building_blocks/muddy_mangrove_roots": {
     "criteria": {
@@ -15703,9 +15685,39 @@
     },
     "done": true
   },
-  "twilightforest:root": {
+  "refurbished_furniture:recipes/misc/constructing/mangrove_hedge": {
     "criteria": {
-      "make_portal": "2024-11-26 06:39:49 +0000"
+      "has_mangrove_leaves": "2024-11-26 07:39:49 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/misc/dissolver": {
+    "criteria": {
+      "has_item": "2024-11-29 22:02:18 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/misc/combiner": {
+    "criteria": {
+      "has_item": "2024-11-29 22:02:18 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/misc/liquifier": {
+    "criteria": {
+      "has_item": "2024-11-29 22:02:18 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/misc/atomizer": {
+    "criteria": {
+      "has_item": "2024-11-29 22:02:18 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/misc/compactor": {
+    "criteria": {
+      "has_item": "2024-11-29 22:02:18 +0000"
     },
     "done": true
   },
