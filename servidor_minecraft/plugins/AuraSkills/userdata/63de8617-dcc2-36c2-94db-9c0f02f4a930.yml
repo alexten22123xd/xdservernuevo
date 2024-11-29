@@ -13,8 +13,8 @@ skills:
     level: 0
     xp: 28.28
   auraskills/agility:
-    level: 2
-    xp: 317.0637999999999
+    level: 3
+    xp: 65.58759999999987
   auraskills/farming:
     level: 0
     xp: 0.0
@@ -33,7 +33,7 @@ skills:
   auraskills/fishing:
     level: 0
     xp: 0.0
-mana: 22.0
+mana: 24.0
 action_bar:
   idle: true
 trait_modifiers:
