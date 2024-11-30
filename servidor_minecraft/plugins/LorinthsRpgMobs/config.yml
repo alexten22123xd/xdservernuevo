@@ -817,6 +817,111 @@ Entity:
           Name: Alexsmobs Lobster
         '40':
           Name: Epic Alexsmobs Lobster
+    SPORE_MOUND:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 2 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Spore Mound
+        '40':
+          Name: Epic Spore Mound
+    VILLAGER:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 2 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Villager
+        '40':
+          Name: Epic Villager
+    ALEXSMOBS_BLOBFISH:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 8 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 2 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Alexsmobs Blobfish
+        '40':
+          Name: Epic Alexsmobs Blobfish
+    SKELETON_HORSE:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 15 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 2 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Skeleton Horse
+        '40':
+          Name: Epic Skeleton Horse
+    CRITTERSANDCOMPANIONS_DRAGONFLY:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 4 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 2 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Crittersandcompanions Dragonfly
+        '40':
+          Name: Epic Crittersandcompanions Dragonfly
+    PIG:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 10 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 2 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Pig
+        '40':
+          Name: Epic Pig
+    GRIMOIREOFGAIA_HORSE:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 15 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 2 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Grimoireofgaia Horse
+        '40':
+          Name: Epic Grimoireofgaia Horse
   Misc:
     Disabled: true
     BAT:
@@ -894,6 +999,21 @@ Entity:
           Name: Alexsmobs Centipede Tail
         '40':
           Name: Epic Alexsmobs Centipede Tail
+    ARMOR_STAND:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 2 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Armor Stand
+        '40':
+          Name: Epic Armor Stand
   Monster:
     Disabled: false # Can disabled full groups
     ZOMBIE:
@@ -3285,3 +3405,93 @@ Entity:
           Name: Undead Revamp2 Crackleball
         '40':
           Name: Epic Undead Revamp2 Crackleball
+    GRIMOIREOFGAIA_BANSHEE:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 80 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 8 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Grimoireofgaia Banshee
+        '40':
+          Name: Epic Grimoireofgaia Banshee
+    PILLAGER:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 24 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 5 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Pillager
+        '40':
+          Name: Epic Pillager
+    GRIMOIREOFGAIA_GRYPHON:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 40 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 4 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Grimoireofgaia Gryphon
+        '40':
+          Name: Epic Grimoireofgaia Gryphon
+    GRIMOIREOFGAIA_VALKYRIE:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 160 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 12 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Grimoireofgaia Valkyrie
+        '40':
+          Name: Epic Grimoireofgaia Valkyrie
+    GUARDIAN:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 30 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 6 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Guardian
+        '40':
+          Name: Epic Guardian
+    GRIMOIREOFGAIA_DWARF:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 80 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 8 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Grimoireofgaia Dwarf
+        '40':
+          Name: Epic Grimoireofgaia Dwarf
