@@ -16176,12 +16176,6 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/decorations/gray_cooler_from_dyeing": {
-    "criteria": {
-      "has_dye": "2024-11-30 01:14:21 +0000"
-    },
-    "done": true
-  },
   "ad_astra:recipes/misc/pink_industrial_lamp": {
     "criteria": {
       "has_pink_industrial_lamp": "2024-11-30 01:13:52 +0000"
@@ -16194,45 +16188,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/gray_candle": {
-    "criteria": {
-      "has_gray_dye": "2024-11-30 01:14:21 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/pink_kitchen_cabinetry": {
     "criteria": {
       "has_pink_dye": "2024-11-30 01:13:52 +0000"
     },
     "done": true
   },
-  "refurbished_furniture:recipes/decorations/gray_kitchen_storage_cabinet_from_dyeing": {
-    "criteria": {
-      "has_dye": "2024-11-30 01:14:21 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/gray_bath": {
-    "criteria": {
-      "has_gray_dye": "2024-11-30 01:14:21 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/decorations/pink_toilet": {
     "criteria": {
       "has_dye": "2024-11-30 01:13:52 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/decorations/gray_toilet": {
-    "criteria": {
-      "has_dye": "2024-11-30 01:14:21 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/decorations/gray_kitchen_sink_from_dyeing": {
-    "criteria": {
-      "has_dye": "2024-11-30 01:14:21 +0000"
     },
     "done": true
   },
@@ -16248,27 +16212,9 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/gray_toilet": {
-    "criteria": {
-      "has_gray_dye": "2024-11-30 01:14:21 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/pink_kitchen_sink": {
     "criteria": {
       "has_pink_dye": "2024-11-30 01:13:52 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/decorations/gray_kitchen_drawer_from_dyeing": {
-    "criteria": {
-      "has_dye": "2024-11-30 01:14:21 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/gray_kitchen_sink": {
-    "criteria": {
-      "has_gray_dye": "2024-11-30 01:14:21 +0000"
     },
     "done": true
   },
@@ -16284,33 +16230,9 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/gray_basin": {
-    "criteria": {
-      "has_gray_dye": "2024-11-30 01:14:21 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/pink_kitchen_storage_cabinet": {
     "criteria": {
       "has_pink_dye": "2024-11-30 01:13:52 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_gray_wool": {
-    "criteria": {
-      "has_needed_dye": "2024-11-30 01:14:21 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_gray_bed": {
-    "criteria": {
-      "has_needed_dye": "2024-11-30 01:14:21 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/gray_kitchen_storage_cabinet": {
-    "criteria": {
-      "has_gray_dye": "2024-11-30 01:14:21 +0000"
     },
     "done": true
   },
@@ -16326,21 +16248,9 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/gray_kitchen_drawer": {
-    "criteria": {
-      "has_gray_dye": "2024-11-30 01:14:21 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/dye_pink_bed": {
     "criteria": {
       "has_needed_dye": "2024-11-30 01:13:52 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/decorations/gray_lamp_from_dyeing": {
-    "criteria": {
-      "has_dye": "2024-11-30 01:14:21 +0000"
     },
     "done": true
   },
@@ -16362,21 +16272,9 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/gray_kitchen_cabinetry": {
-    "criteria": {
-      "has_gray_dye": "2024-11-30 01:14:21 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/decorations/pink_kitchen_drawer_from_dyeing": {
     "criteria": {
       "has_dye": "2024-11-30 01:13:52 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/decorations/gray_trampoline_from_dyeing": {
-    "criteria": {
-      "has_dye": "2024-11-30 01:14:21 +0000"
     },
     "done": true
   },
@@ -16392,6 +16290,138 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/dye_pink_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-11-30 01:13:52 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/pink_grill_from_dyeing": {
+    "criteria": {
+      "has_dye": "2024-11-30 01:13:52 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/building_blocks/dye_pink_sleeping_bag": {
+    "criteria": {
+      "has_needed_dye": "2024-11-30 01:13:52 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/pink_cooler_from_dyeing": {
+    "criteria": {
+      "has_dye": "2024-11-30 01:13:52 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/pink_lamp_from_dyeing": {
+    "criteria": {
+      "has_dye": "2024-11-30 01:13:52 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/gray_cooler_from_dyeing": {
+    "criteria": {
+      "has_dye": "2024-11-30 01:14:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_candle": {
+    "criteria": {
+      "has_gray_dye": "2024-11-30 01:14:21 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/gray_kitchen_storage_cabinet_from_dyeing": {
+    "criteria": {
+      "has_dye": "2024-11-30 01:14:21 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/gray_bath": {
+    "criteria": {
+      "has_gray_dye": "2024-11-30 01:14:21 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/gray_toilet": {
+    "criteria": {
+      "has_dye": "2024-11-30 01:14:21 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/gray_kitchen_sink_from_dyeing": {
+    "criteria": {
+      "has_dye": "2024-11-30 01:14:21 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/gray_toilet": {
+    "criteria": {
+      "has_gray_dye": "2024-11-30 01:14:21 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/gray_kitchen_drawer_from_dyeing": {
+    "criteria": {
+      "has_dye": "2024-11-30 01:14:21 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/gray_kitchen_sink": {
+    "criteria": {
+      "has_gray_dye": "2024-11-30 01:14:21 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/gray_basin": {
+    "criteria": {
+      "has_gray_dye": "2024-11-30 01:14:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_gray_wool": {
+    "criteria": {
+      "has_needed_dye": "2024-11-30 01:14:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_gray_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-11-30 01:14:21 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/gray_kitchen_storage_cabinet": {
+    "criteria": {
+      "has_gray_dye": "2024-11-30 01:14:21 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/gray_kitchen_drawer": {
+    "criteria": {
+      "has_gray_dye": "2024-11-30 01:14:21 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/gray_lamp_from_dyeing": {
+    "criteria": {
+      "has_dye": "2024-11-30 01:14:21 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/gray_kitchen_cabinetry": {
+    "criteria": {
+      "has_gray_dye": "2024-11-30 01:14:21 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/gray_trampoline_from_dyeing": {
+    "criteria": {
+      "has_dye": "2024-11-30 01:14:21 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/decorations/gray_kitchen_cabinetry_from_dyeing": {
     "criteria": {
       "has_dye": "2024-11-30 01:14:21 +0000"
@@ -16401,12 +16431,6 @@
   "refurbished_furniture:recipes/decorations/gray_sofa_from_dyeing": {
     "criteria": {
       "has_dye": "2024-11-30 01:14:21 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_pink_carpet": {
-    "criteria": {
-      "has_needed_dye": "2024-11-30 01:13:52 +0000"
     },
     "done": true
   },
@@ -16440,33 +16464,9 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/decorations/pink_grill_from_dyeing": {
-    "criteria": {
-      "has_dye": "2024-11-30 01:13:52 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/building_blocks/dye_pink_sleeping_bag": {
-    "criteria": {
-      "has_needed_dye": "2024-11-30 01:13:52 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/decorations/gray_grill_from_dyeing": {
     "criteria": {
       "has_dye": "2024-11-30 01:14:21 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/decorations/pink_cooler_from_dyeing": {
-    "criteria": {
-      "has_dye": "2024-11-30 01:13:52 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/decorations/pink_lamp_from_dyeing": {
-    "criteria": {
-      "has_dye": "2024-11-30 01:13:52 +0000"
     },
     "done": true
   },
