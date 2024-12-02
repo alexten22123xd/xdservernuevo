@@ -11957,5 +11957,17 @@
     },
     "done": true
   },
+  "aether:enter_aether": {
+    "criteria": {
+      "enter_aether": "2024-12-01 23:57:41 +0000"
+    },
+    "done": true
+  },
+  "aether:the_aether": {
+    "criteria": {
+      "the_aether": "2024-12-01 23:57:41 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
