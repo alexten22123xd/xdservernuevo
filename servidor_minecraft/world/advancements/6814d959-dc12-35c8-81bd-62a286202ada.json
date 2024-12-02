@@ -16626,6 +16626,12 @@
     },
     "done": true
   },
+  "twilightforest:recipes/building_blocks/nagastone/cracked_nagastone_stairs_right": {
+    "criteria": {
+      "has_item": "2024-12-02 01:17:26 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/decorations/light_blue_cooler_from_dyeing": {
     "criteria": {
       "has_dye": "2024-12-02 00:56:43 +0000"
@@ -16695,6 +16701,12 @@
   "minecraft:recipes/building_blocks/dye_light_blue_carpet": {
     "criteria": {
       "has_needed_dye": "2024-12-02 00:56:43 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/nagastone/cracked_nagastone_stairs_left": {
+    "criteria": {
+      "has_item": "2024-12-02 01:17:26 +0000"
     },
     "done": true
   },

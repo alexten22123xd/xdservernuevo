@@ -16265,5 +16265,17 @@
     },
     "done": true
   },
+  "infinite_abyss:logged_in": {
+    "criteria": {
+      "logged_in": "2024-12-02 06:40:39 +0000"
+    },
+    "done": true
+  },
+  "infinite_abyss:firey_depths": {
+    "criteria": {
+      "firey_depths": "2024-12-02 06:40:39 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
