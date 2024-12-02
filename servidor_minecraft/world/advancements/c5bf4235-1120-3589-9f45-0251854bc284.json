@@ -123,6 +123,7 @@
     "criteria": {
       "minecraft:snowy_slopes": "2024-10-29 15:52:10 +0000",
       "minecraft:taiga": "2024-10-31 17:23:46 +0000",
+      "minecraft:deep_ocean": "2024-12-02 07:02:00 +0000",
       "minecraft:frozen_river": "2024-10-29 15:50:09 +0000",
       "minecraft:cherry_grove": "2024-11-01 06:34:18 +0000",
       "minecraft:wooded_badlands": "2024-11-10 01:56:35 +0000",
@@ -16268,6 +16269,12 @@
   "infinite_abyss:logged_in": {
     "criteria": {
       "logged_in": "2024-12-02 06:40:39 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/snow_smithing": {
+    "criteria": {
+      "has_snow": "2024-12-02 06:59:15 +0000"
     },
     "done": true
   },
