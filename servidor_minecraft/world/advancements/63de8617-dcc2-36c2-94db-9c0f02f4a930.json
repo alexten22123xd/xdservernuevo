@@ -1787,6 +1787,7 @@
       "minecraft:hoglin": "2024-12-02 00:06:06 +0000",
       "minecraft:vindicator": "2024-11-13 20:54:52 +0000",
       "minecraft:spider": "2024-11-06 03:10:12 +0000",
+      "minecraft:piglin_brute": "2024-12-02 00:13:20 +0000",
       "minecraft:creeper": "2024-11-16 05:39:32 +0000",
       "minecraft:phantom": "2024-11-11 22:56:19 +0000",
       "minecraft:zombified_piglin": "2024-10-31 22:17:34 +0000",
@@ -11958,9 +11959,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-12-02 00:09:33 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/scoria_from_stone_types_scoria_stonecutting": {
     "criteria": {
       "has_stone_types_scoria": "2024-12-02 00:04:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
+    "criteria": {
+      "has_ancient_debris": "2024-12-02 00:10:27 +0000"
     },
     "done": true
   },
@@ -11973,6 +11986,12 @@
   "create:recipes/building_blocks/cut_scoria_slab_from_stone_types_scoria_stonecutting": {
     "criteria": {
       "has_stone_types_scoria": "2024-12-02 00:04:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-12-02 00:09:33 +0000"
     },
     "done": true
   },
@@ -11994,15 +12013,57 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-12-02 00:09:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-12-02 00:09:33 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/smooth_basalt": {
+    "criteria": {
+      "has_the_recipe": "2024-12-02 00:12:33 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/small_scoria_brick_stairs_from_stone_types_scoria_stonecutting": {
     "criteria": {
       "has_stone_types_scoria": "2024-12-02 00:04:27 +0000"
     },
     "done": true
   },
+  "alchemistry:recipes/dissolver/magma_block": {
+    "criteria": {
+      "has_the_recipe": "2024-12-02 00:10:28 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/golden_axe_repairing": {
+    "criteria": {
+      "has_golden_axe": "2024-12-02 00:11:58 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/netherite_scrap": {
+    "criteria": {
+      "has_the_recipe": "2024-12-02 00:10:27 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/small_scoria_brick_wall_from_stone_types_scoria_stonecutting": {
     "criteria": {
       "has_stone_types_scoria": "2024-12-02 00:04:27 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/polished_blackstone_brick_slab": {
+    "criteria": {
+      "has_the_recipe": "2024-12-02 00:09:33 +0000"
     },
     "done": true
   },
@@ -12030,15 +12091,45 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cracked_polished_blackstone_bricks": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-12-02 00:09:33 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/cut_scoria_bricks_from_stone_types_scoria_stonecutting": {
     "criteria": {
       "has_stone_types_scoria": "2024-12-02 00:04:27 +0000"
     },
     "done": true
   },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2024-12-02 00:10:27 +0000"
+    },
+    "done": true
+  },
   "aether:the_aether": {
     "criteria": {
       "the_aether": "2024-12-01 23:57:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_basalt": {
+    "criteria": {
+      "has_basalt": "2024-12-02 00:12:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_other": "2024-12-02 00:10:11 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/cracked_polished_blackstone_bricks": {
+    "criteria": {
+      "has_the_recipe": "2024-12-02 00:09:33 +0000"
     },
     "done": true
   },
@@ -12060,9 +12151,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_basalt": {
+    "criteria": {
+      "has_basalt": "2024-12-02 00:12:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magma_block": {
+    "criteria": {
+      "has_magma_cream": "2024-12-02 00:10:28 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/cut_scoria_brick_wall_from_stone_types_scoria_stonecutting": {
     "criteria": {
       "has_stone_types_scoria": "2024-12-02 00:04:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-12-02 00:09:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap": {
+    "criteria": {
+      "has_ancient_debris": "2024-12-02 00:10:27 +0000"
     },
     "done": true
   },
@@ -12078,15 +12193,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-12-02 00:09:33 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/cut_scoria_brick_slab_from_stone_types_scoria_stonecutting": {
     "criteria": {
       "has_stone_types_scoria": "2024-12-02 00:04:27 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
+    "criteria": {
+      "has_basalt": "2024-12-02 00:12:33 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/cut_scoria_stairs_from_stone_types_scoria_stonecutting": {
     "criteria": {
       "has_stone_types_scoria": "2024-12-02 00:04:27 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/magma_cube": {
+    "criteria": {
+      "has_magma_cream": "2024-12-02 00:10:28 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/polished_basalt": {
+    "criteria": {
+      "has_the_recipe": "2024-12-02 00:12:33 +0000"
     },
     "done": true
   },
