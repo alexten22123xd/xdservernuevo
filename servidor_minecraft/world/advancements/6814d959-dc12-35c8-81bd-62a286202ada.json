@@ -16626,5 +16626,137 @@
     },
     "done": true
   },
+  "refurbished_furniture:recipes/decorations/light_blue_cooler_from_dyeing": {
+    "criteria": {
+      "has_dye": "2024-12-02 00:56:43 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/building_blocks/dye_light_blue_sleeping_bag": {
+    "criteria": {
+      "has_needed_dye": "2024-12-02 00:56:43 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/light_blue_grill_from_dyeing": {
+    "criteria": {
+      "has_dye": "2024-12-02 00:56:43 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/light_blue_sofa_from_dyeing": {
+    "criteria": {
+      "has_dye": "2024-12-02 00:56:43 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/light_blue_stool_from_dyeing": {
+    "criteria": {
+      "has_dye": "2024-12-02 00:56:43 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/light_blue_trampoline_from_dyeing": {
+    "criteria": {
+      "has_dye": "2024-12-02 00:56:43 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/light_blue_kitchen_storage_cabinet_from_dyeing": {
+    "criteria": {
+      "has_dye": "2024-12-02 00:56:43 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/light_blue_lamp_from_dyeing": {
+    "criteria": {
+      "has_dye": "2024-12-02 00:56:43 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/light_blue_basin": {
+    "criteria": {
+      "has_light_blue_dye": "2024-12-02 00:56:43 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/light_blue_kitchen_sink_from_dyeing": {
+    "criteria": {
+      "has_dye": "2024-12-02 00:56:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_light_blue_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-12-02 00:56:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_light_blue_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-12-02 00:56:43 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/light_blue_toilet": {
+    "criteria": {
+      "has_light_blue_dye": "2024-12-02 00:56:43 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/light_blue_kitchen_cabinetry_from_dyeing": {
+    "criteria": {
+      "has_dye": "2024-12-02 00:56:43 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/light_blue_bath": {
+    "criteria": {
+      "has_light_blue_dye": "2024-12-02 00:56:43 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/light_blue_kitchen_sink": {
+    "criteria": {
+      "has_light_blue_dye": "2024-12-02 00:56:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_candle": {
+    "criteria": {
+      "has_light_blue_dye": "2024-12-02 00:56:43 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/light_blue_industrial_lamp": {
+    "criteria": {
+      "has_light_blue_industrial_lamp": "2024-12-02 00:56:43 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/light_blue_toilet": {
+    "criteria": {
+      "has_dye": "2024-12-02 00:56:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_light_blue_wool": {
+    "criteria": {
+      "has_needed_dye": "2024-12-02 00:56:43 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/small_light_blue_industrial_lamp": {
+    "criteria": {
+      "has_small_light_blue_industrial_lamp": "2024-12-02 00:56:43 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/light_blue_kitchen_drawer_from_dyeing": {
+    "criteria": {
+      "has_dye": "2024-12-02 00:56:43 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
