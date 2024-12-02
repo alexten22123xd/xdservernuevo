@@ -16253,5 +16253,11 @@
     },
     "done": true
   },
+  "create:recipes/building_blocks/small_calcite_brick_slab_recycling": {
+    "criteria": {
+      "has_small_calcite_brick_slab": "2024-12-02 00:25:25 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

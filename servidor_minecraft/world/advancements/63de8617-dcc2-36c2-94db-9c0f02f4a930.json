@@ -852,6 +852,7 @@
       "cooked_mutton": "2024-11-13 22:32:37 +0000",
       "sweet_berries": "2024-11-09 03:19:47 +0000",
       "cooked_beef": "2024-11-13 00:28:28 +0000",
+      "baked_potato": "2024-12-02 00:28:01 +0000",
       "apple": "2024-11-06 03:54:04 +0000",
       "potato": "2024-11-06 04:11:39 +0000",
       "pumpkin_pie": "2024-11-16 06:42:15 +0000",
@@ -1786,6 +1787,7 @@
       "minecraft:skeleton": "2024-10-31 22:08:34 +0000",
       "minecraft:hoglin": "2024-12-02 00:06:06 +0000",
       "minecraft:vindicator": "2024-11-13 20:54:52 +0000",
+      "minecraft:magma_cube": "2024-12-02 00:27:03 +0000",
       "minecraft:spider": "2024-11-06 03:10:12 +0000",
       "minecraft:piglin_brute": "2024-12-02 00:13:20 +0000",
       "minecraft:creeper": "2024-11-16 05:39:32 +0000",
@@ -11977,6 +11979,12 @@
     },
     "done": true
   },
+  "alexsmobs:alexsmobs/soul_vulture": {
+    "criteria": {
+      "killed": "2024-12-02 00:19:31 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/polished_cut_scoria_from_stone_types_scoria_stonecutting": {
     "criteria": {
       "has_stone_types_scoria": "2024-12-02 00:04:27 +0000"
@@ -12079,6 +12087,12 @@
     },
     "done": true
   },
+  "alchemistry:recipes/misc/reactor_casing": {
+    "criteria": {
+      "has_item": "2024-12-02 00:29:58 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/small_scoria_bricks_from_stone_types_scoria_stonecutting": {
     "criteria": {
       "has_stone_types_scoria": "2024-12-02 00:04:27 +0000"
@@ -12118,6 +12132,12 @@
   "minecraft:recipes/building_blocks/smooth_basalt": {
     "criteria": {
       "has_basalt": "2024-12-02 00:12:33 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/golden_leggings_repairing": {
+    "criteria": {
+      "has_golden_leggings": "2024-12-02 00:28:46 +0000"
     },
     "done": true
   },
