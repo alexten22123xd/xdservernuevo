@@ -16488,6 +16488,18 @@
     },
     "done": true
   },
+  "ancient_aether:aether_biomes": {
+    "criteria": {
+      "skyroot_woodland": "2024-12-01 23:58:08 +0000"
+    },
+    "done": false
+  },
+  "refurbished_furniture:recipes/misc/constructing/cyan_kitchen_cabinetry": {
+    "criteria": {
+      "has_wooden_kitchen_cabinetry": "2024-12-02 00:06:20 +0000"
+    },
+    "done": true
+  },
   "alchemistry:recipes/dissolver/quartz_bricks": {
     "criteria": {
       "has_the_recipe": "2024-12-01 23:53:21 +0000"
@@ -16506,15 +16518,39 @@
     },
     "done": true
   },
+  "aether:enter_aether": {
+    "criteria": {
+      "enter_aether": "2024-12-01 23:58:03 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/quartz_bricks": {
     "criteria": {
       "has_quartz_block": "2024-12-01 23:53:21 +0000"
     },
     "done": true
   },
+  "refurbished_furniture:recipes/misc/constructing/lime_kitchen_drawer": {
+    "criteria": {
+      "has_wooden_kitchen_drawers": "2024-12-02 00:05:28 +0000"
+    },
+    "done": true
+  },
+  "aether:the_aether": {
+    "criteria": {
+      "the_aether": "2024-12-01 23:58:03 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/quartz_slab_from_stonecutting": {
     "criteria": {
       "has_quartz_block": "2024-12-01 23:53:21 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/light_blue_kitchen_cabinetry": {
+    "criteria": {
+      "has_wooden_kitchen_cabinetry": "2024-12-02 00:06:20 +0000"
     },
     "done": true
   },
@@ -16530,6 +16566,18 @@
     },
     "done": true
   },
+  "refurbished_furniture:recipes/misc/constructing/light_blue_kitchen_drawer": {
+    "criteria": {
+      "has_wooden_kitchen_drawers": "2024-12-02 00:05:28 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/lime_kitchen_cabinetry": {
+    "criteria": {
+      "has_wooden_kitchen_cabinetry": "2024-12-02 00:06:20 +0000"
+    },
+    "done": true
+  },
   "alchemistry:recipes/dissolver/smooth_quartz": {
     "criteria": {
       "has_the_recipe": "2024-12-01 23:53:21 +0000"
@@ -16539,6 +16587,12 @@
   "minecraft:recipes/building_blocks/smooth_quartz": {
     "criteria": {
       "has_quartz_block": "2024-12-01 23:53:21 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/cyan_kitchen_drawer": {
+    "criteria": {
+      "has_wooden_kitchen_drawers": "2024-12-02 00:05:28 +0000"
     },
     "done": true
   },
