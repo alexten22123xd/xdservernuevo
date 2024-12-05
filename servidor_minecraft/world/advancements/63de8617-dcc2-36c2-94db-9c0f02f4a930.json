@@ -747,6 +747,8 @@
       "rocky_reef": "2024-11-10 02:06:37 +0000",
       "redstone_caves": "2024-11-16 05:43:06 +0000",
       "poppy_fields": "2024-11-16 06:24:38 +0000",
+      "rocky_meadow": "2024-12-04 07:19:53 +0000",
+      "mycotoxic_undergrowth": "2024-12-03 03:49:17 +0000",
       "ochard": "2024-11-17 00:11:05 +0000",
       "flower_fields": "2024-11-17 00:11:23 +0000",
       "highland_fields": "2024-11-29 22:33:17 +0000",
@@ -779,6 +781,7 @@
       "frozen_tundra": "2024-11-06 02:55:36 +0000",
       "rocky_reef": "2024-11-10 02:06:37 +0000",
       "poppy_fields": "2024-11-16 06:24:38 +0000",
+      "rocky_meadow": "2024-12-04 07:19:53 +0000",
       "ochard": "2024-11-17 00:11:05 +0000",
       "flower_fields": "2024-11-17 00:11:23 +0000",
       "highland_fields": "2024-11-29 22:33:17 +0000",
@@ -1372,7 +1375,9 @@
   },
   "regions_unexplored:got_wood": {
     "criteria": {
+      "yellow_bioshroom_stem": "2024-12-03 04:38:01 +0000",
       "larch_log": "2024-10-31 22:03:26 +0000",
+      "brimwood_log": "2024-12-03 04:19:48 +0000",
       "silver_birch_log": "2024-11-06 04:24:08 +0000",
       "maple_log": "2024-11-06 03:00:23 +0000"
     },
@@ -1890,6 +1895,7 @@
   },
   "regions_unexplored:eternal_expedition": {
     "criteria": {
+      "mycotoxic_undergrowth": "2024-12-03 03:49:17 +0000",
       "blackstone_basin": "2024-10-31 22:44:36 +0000",
       "infernal_holt": "2024-10-31 22:16:41 +0000",
       "glistering_meadow": "2024-10-31 22:15:06 +0000"
@@ -7135,9 +7141,13 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
-      "minecraft:soul_sand_valley": "2024-11-09 04:41:46 +0000"
+      "minecraft:crimson_forest": "2024-12-03 04:12:13 +0000",
+      "minecraft:soul_sand_valley": "2024-11-09 04:41:46 +0000",
+      "minecraft:nether_wastes": "2024-12-03 03:51:13 +0000",
+      "minecraft:basalt_deltas": "2024-12-03 03:56:10 +0000",
+      "minecraft:warped_forest": "2024-12-03 03:55:38 +0000"
     },
-    "done": false
+    "done": true
   },
   "grimoireofgaia:main/wither_cow": {
     "criteria": {
@@ -11961,27 +11971,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab": {
+  "aether:enter_aether": {
     "criteria": {
-      "has_polished_blackstone_bricks": "2024-12-02 00:09:33 +0000"
+      "enter_aether": "2024-12-01 23:57:41 +0000"
+    },
+    "done": true
+  },
+  "aether:the_aether": {
+    "criteria": {
+      "the_aether": "2024-12-01 23:57:41 +0000"
     },
     "done": true
   },
   "create:recipes/building_blocks/scoria_from_stone_types_scoria_stonecutting": {
     "criteria": {
       "has_stone_types_scoria": "2024-12-02 00:04:27 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
-    "criteria": {
-      "has_ancient_debris": "2024-12-02 00:10:27 +0000"
-    },
-    "done": true
-  },
-  "alexsmobs:alexsmobs/soul_vulture": {
-    "criteria": {
-      "killed": "2024-12-02 00:19:31 +0000"
     },
     "done": true
   },
@@ -11994,12 +11998,6 @@
   "create:recipes/building_blocks/cut_scoria_slab_from_stone_types_scoria_stonecutting": {
     "criteria": {
       "has_stone_types_scoria": "2024-12-02 00:04:27 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_bricks_stonecutting": {
-    "criteria": {
-      "has_polished_blackstone_bricks": "2024-12-02 00:09:33 +0000"
     },
     "done": true
   },
@@ -12021,45 +12019,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_bricks_stonecutting": {
-    "criteria": {
-      "has_polished_blackstone_bricks": "2024-12-02 00:09:33 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/polished_blackstone_brick_wall": {
-    "criteria": {
-      "has_polished_blackstone_bricks": "2024-12-02 00:09:33 +0000"
-    },
-    "done": true
-  },
-  "alchemistry:recipes/dissolver/smooth_basalt": {
-    "criteria": {
-      "has_the_recipe": "2024-12-02 00:12:33 +0000"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/small_scoria_brick_stairs_from_stone_types_scoria_stonecutting": {
     "criteria": {
       "has_stone_types_scoria": "2024-12-02 00:04:27 +0000"
-    },
-    "done": true
-  },
-  "alchemistry:recipes/dissolver/magma_block": {
-    "criteria": {
-      "has_the_recipe": "2024-12-02 00:10:28 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/tools/golden_axe_repairing": {
-    "criteria": {
-      "has_golden_axe": "2024-12-02 00:11:58 +0000"
-    },
-    "done": true
-  },
-  "alchemistry:recipes/dissolver/netherite_scrap": {
-    "criteria": {
-      "has_the_recipe": "2024-12-02 00:10:27 +0000"
     },
     "done": true
   },
@@ -12069,27 +12031,9 @@
     },
     "done": true
   },
-  "alchemistry:recipes/dissolver/polished_blackstone_brick_slab": {
-    "criteria": {
-      "has_the_recipe": "2024-12-02 00:09:33 +0000"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/polished_cut_scoria_wall_from_stone_types_scoria_stonecutting": {
     "criteria": {
       "has_stone_types_scoria": "2024-12-02 00:04:27 +0000"
-    },
-    "done": true
-  },
-  "aether:enter_aether": {
-    "criteria": {
-      "enter_aether": "2024-12-01 23:57:41 +0000"
-    },
-    "done": true
-  },
-  "alchemistry:recipes/misc/reactor_casing": {
-    "criteria": {
-      "has_item": "2024-12-02 00:29:58 +0000"
     },
     "done": true
   },
@@ -12105,51 +12049,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/cracked_polished_blackstone_bricks": {
-    "criteria": {
-      "has_polished_blackstone_bricks": "2024-12-02 00:09:33 +0000"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/cut_scoria_bricks_from_stone_types_scoria_stonecutting": {
     "criteria": {
       "has_stone_types_scoria": "2024-12-02 00:04:27 +0000"
-    },
-    "done": true
-  },
-  "minecraft:nether/obtain_ancient_debris": {
-    "criteria": {
-      "ancient_debris": "2024-12-02 00:10:27 +0000"
-    },
-    "done": true
-  },
-  "aether:the_aether": {
-    "criteria": {
-      "the_aether": "2024-12-01 23:57:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/smooth_basalt": {
-    "criteria": {
-      "has_basalt": "2024-12-02 00:12:33 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/golden_leggings_repairing": {
-    "criteria": {
-      "has_golden_leggings": "2024-12-02 00:28:46 +0000"
-    },
-    "done": true
-  },
-  "minecraft:nether/loot_bastion": {
-    "criteria": {
-      "loot_bastion_other": "2024-12-02 00:10:11 +0000"
-    },
-    "done": true
-  },
-  "alchemistry:recipes/dissolver/cracked_polished_blackstone_bricks": {
-    "criteria": {
-      "has_the_recipe": "2024-12-02 00:09:33 +0000"
     },
     "done": true
   },
@@ -12171,33 +12073,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_basalt": {
-    "criteria": {
-      "has_basalt": "2024-12-02 00:12:33 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/magma_block": {
-    "criteria": {
-      "has_magma_cream": "2024-12-02 00:10:28 +0000"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/cut_scoria_brick_wall_from_stone_types_scoria_stonecutting": {
     "criteria": {
       "has_stone_types_scoria": "2024-12-02 00:04:27 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs": {
-    "criteria": {
-      "has_polished_blackstone_bricks": "2024-12-02 00:09:33 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/netherite_scrap": {
-    "criteria": {
-      "has_ancient_debris": "2024-12-02 00:10:27 +0000"
     },
     "done": true
   },
@@ -12213,21 +12091,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting": {
-    "criteria": {
-      "has_polished_blackstone_bricks": "2024-12-02 00:09:33 +0000"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/cut_scoria_brick_slab_from_stone_types_scoria_stonecutting": {
     "criteria": {
       "has_stone_types_scoria": "2024-12-02 00:04:27 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
-    "criteria": {
-      "has_basalt": "2024-12-02 00:12:33 +0000"
     },
     "done": true
   },
@@ -12237,15 +12103,453 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-12-02 00:09:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-12-02 00:09:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-12-02 00:09:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-12-02 00:09:33 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/polished_blackstone_brick_slab": {
+    "criteria": {
+      "has_the_recipe": "2024-12-02 00:09:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_polished_blackstone_bricks": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-12-02 00:09:33 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/cracked_polished_blackstone_bricks": {
+    "criteria": {
+      "has_the_recipe": "2024-12-02 00:09:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-12-02 00:09:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-12-02 00:09:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_other": "2024-12-02 00:10:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
+    "criteria": {
+      "has_ancient_debris": "2024-12-02 00:10:27 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/netherite_scrap": {
+    "criteria": {
+      "has_the_recipe": "2024-12-02 00:10:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2024-12-02 00:10:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap": {
+    "criteria": {
+      "has_ancient_debris": "2024-12-02 00:10:27 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/magma_block": {
+    "criteria": {
+      "has_the_recipe": "2024-12-02 00:10:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magma_block": {
+    "criteria": {
+      "has_magma_cream": "2024-12-02 00:10:28 +0000"
+    },
+    "done": true
+  },
   "travelersbackpack:recipes/misc/magma_cube": {
     "criteria": {
       "has_magma_cream": "2024-12-02 00:10:28 +0000"
     },
     "done": true
   },
+  "aether:recipes/tools/golden_axe_repairing": {
+    "criteria": {
+      "has_golden_axe": "2024-12-02 00:11:58 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/smooth_basalt": {
+    "criteria": {
+      "has_the_recipe": "2024-12-02 00:12:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_basalt": {
+    "criteria": {
+      "has_basalt": "2024-12-02 00:12:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt": {
+    "criteria": {
+      "has_basalt": "2024-12-02 00:12:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
+    "criteria": {
+      "has_basalt": "2024-12-02 00:12:33 +0000"
+    },
+    "done": true
+  },
   "alchemistry:recipes/dissolver/polished_basalt": {
     "criteria": {
       "has_the_recipe": "2024-12-02 00:12:33 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/soul_vulture": {
+    "criteria": {
+      "killed": "2024-12-02 00:19:31 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/golden_leggings_repairing": {
+    "criteria": {
+      "has_golden_leggings": "2024-12-02 00:28:46 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/misc/reactor_casing": {
+    "criteria": {
+      "has_item": "2024-12-02 00:29:58 +0000"
+    },
+    "done": true
+  },
+  "infinite_abyss:logged_in": {
+    "criteria": {
+      "logged_in": "2024-12-03 03:25:46 +0000"
+    },
+    "done": true
+  },
+  "infinite_abyss:firey_depths": {
+    "criteria": {
+      "firey_depths": "2024-12-03 03:25:46 +0000"
+    },
+    "done": true
+  },
+  "stellarity:nether/a_piece_of_otherworld": {
+    "criteria": {
+      "criteria": "2024-12-03 03:55:38 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/straddler": {
+    "criteria": {
+      "killed": "2024-12-03 04:00:44 +0000"
+    },
+    "done": true
+  },
+  "nova_structures:nether/find_piglins": {
+    "criteria": {
+      "nova_structures:piglin_camp": "2024-12-03 04:17:54 +0000"
+    },
+    "done": false
+  },
+  "regions_unexplored:recipes/building_blocks/brimwood_planks": {
+    "criteria": {
+      "has_logs": "2024-12-03 04:19:48 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/brimwood_wood": {
+    "criteria": {
+      "has_log": "2024-12-03 04:19:48 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/nether_bricks_bridge_pier": {
+    "criteria": {
+      "has_planks": "2024-12-03 04:20:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_nether_bricks_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2024-12-03 04:20:43 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/balustrade_nether_bricks_bridge": {
+    "criteria": {
+      "has_planks": "2024-12-03 04:20:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2024-12-03 04:20:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_fence": {
+    "criteria": {
+      "has_nether_bricks": "2024-12-03 04:20:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_nether_bricks": {
+    "criteria": {
+      "has_nether_bricks": "2024-12-03 04:20:43 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/nether_brick_slab": {
+    "criteria": {
+      "has_the_recipe": "2024-12-03 04:20:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2024-12-03 04:20:43 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/cracked_nether_bricks": {
+    "criteria": {
+      "has_the_recipe": "2024-12-03 04:20:43 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/nether_bricks_bridge_stair": {
+    "criteria": {
+      "has_planks": "2024-12-03 04:20:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_wall_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2024-12-03 04:20:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_wall": {
+    "criteria": {
+      "has_nether_bricks": "2024-12-03 04:20:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs": {
+    "criteria": {
+      "has_nether_bricks": "2024-12-03 04:20:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab": {
+    "criteria": {
+      "has_nether_bricks": "2024-12-03 04:20:43 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/nether_bricks_bridge": {
+    "criteria": {
+      "has_planks": "2024-12-03 04:20:43 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/advanced_feeding_upgrade": {
+    "criteria": {
+      "has_feeding_upgrade": "2024-12-03 04:25:32 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/yellow_bioshroom_planks": {
+    "criteria": {
+      "has_logs": "2024-12-03 04:38:01 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/yellow_bioshroom_hyphae": {
+    "criteria": {
+      "has_log": "2024-12-03 04:38:01 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:ancient_specimens": {
+    "criteria": {
+      "yellow_bioshroom_stem": "2024-12-03 04:38:01 +0000"
+    },
+    "done": false
+  },
+  "create:recipes/building_blocks/cut_crimsite_bricks_from_stone_types_crimsite_stonecutting": {
+    "criteria": {
+      "has_stone_types_crimsite": "2024-12-03 07:20:04 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_crimsite_brick_wall": {
+    "criteria": {
+      "has_small_crimsite_bricks": "2024-12-03 07:20:04 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_crimsite_from_stone_types_crimsite_stonecutting": {
+    "criteria": {
+      "has_stone_types_crimsite": "2024-12-03 07:20:04 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_crimsite_brick_stairs": {
+    "criteria": {
+      "has_small_crimsite_bricks": "2024-12-03 07:20:04 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_crimsite_bricks_from_stone_types_crimsite_stonecutting": {
+    "criteria": {
+      "has_stone_types_crimsite": "2024-12-03 07:20:04 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_crimsite_brick_wall_from_stone_types_crimsite_stonecutting": {
+    "criteria": {
+      "has_stone_types_crimsite": "2024-12-03 07:20:04 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_crimsite_brick_slab_from_stone_types_crimsite_stonecutting": {
+    "criteria": {
+      "has_stone_types_crimsite": "2024-12-03 07:20:04 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_crimsite_brick_wall_from_stone_types_crimsite_stonecutting": {
+    "criteria": {
+      "has_stone_types_crimsite": "2024-12-03 07:20:04 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/layered_crimsite_from_stone_types_crimsite_stonecutting": {
+    "criteria": {
+      "has_stone_types_crimsite": "2024-12-03 07:20:04 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crimsite_pillar_from_stone_types_crimsite_stonecutting": {
+    "criteria": {
+      "has_stone_types_crimsite": "2024-12-03 07:20:04 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_crimsite_wall_from_stone_types_crimsite_stonecutting": {
+    "criteria": {
+      "has_stone_types_crimsite": "2024-12-03 07:20:04 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_crimsite_brick_slab": {
+    "criteria": {
+      "has_small_crimsite_bricks": "2024-12-03 07:20:04 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_crimsite_slab_from_stone_types_crimsite_stonecutting": {
+    "criteria": {
+      "has_stone_types_crimsite": "2024-12-03 07:20:04 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crimsite_from_stone_types_crimsite_stonecutting": {
+    "criteria": {
+      "has_stone_types_crimsite": "2024-12-03 07:20:04 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_crimsite_wall_from_stone_types_crimsite_stonecutting": {
+    "criteria": {
+      "has_stone_types_crimsite": "2024-12-03 07:20:04 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_crimsite_stairs_from_stone_types_crimsite_stonecutting": {
+    "criteria": {
+      "has_stone_types_crimsite": "2024-12-03 07:20:04 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_crimsite_brick_stairs_from_stone_types_crimsite_stonecutting": {
+    "criteria": {
+      "has_stone_types_crimsite": "2024-12-03 07:20:04 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_crimsite_brick_stairs_from_stone_types_crimsite_stonecutting": {
+    "criteria": {
+      "has_stone_types_crimsite": "2024-12-03 07:20:04 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_crimsite_from_stone_types_crimsite_stonecutting": {
+    "criteria": {
+      "has_stone_types_crimsite": "2024-12-03 07:20:04 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_crimsite_stairs_from_stone_types_crimsite_stonecutting": {
+    "criteria": {
+      "has_stone_types_crimsite": "2024-12-03 07:20:04 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_crimsite_slab_from_stone_types_crimsite_stonecutting": {
+    "criteria": {
+      "has_stone_types_crimsite": "2024-12-03 07:20:04 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_crimsite_brick_slab_from_stone_types_crimsite_stonecutting": {
+    "criteria": {
+      "has_stone_types_crimsite": "2024-12-03 07:20:04 +0000"
+    },
+    "done": true
+  },
+  "graveyard:graveyard/root": {
+    "criteria": {
+      "grave_01": "2024-12-04 07:27:37 +0000"
     },
     "done": true
   },

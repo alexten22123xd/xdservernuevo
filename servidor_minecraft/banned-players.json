@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "uuid": "b3c99862-5a86-36da-9094-5f7217091498",
+    "name": "c",
+    "created": "2024-12-03 06:20:17 +0000",
+    "source": "Alexten22",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  }
+]

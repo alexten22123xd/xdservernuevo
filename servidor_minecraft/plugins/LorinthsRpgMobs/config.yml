@@ -277,171 +277,21 @@ MobVariants:
 Entity:
   Animal:
     Disabled: true
-    LUMINOUSWORLD_TROUT_FISH:
+    ALEXSMOBS_BLOBFISH:
       Disabled: false
       AllowDespawn: false
       DisabledWorlds: []
       Formulas:
-        Health: 3 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 3 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Luminousworld Trout Fish
-        '40':
-          Name: Epic Luminousworld Trout Fish
-    ALEXSMOBS_TRIOPS:
-      Disabled: false
-      AllowDespawn: false
-      DisabledWorlds: []
-      Formulas:
-        Health: 4 + ({level} / 3) + ({level} / 5) + rand(5)
+        Health: 8 + ({level} / 3) + ({level} / 5) + rand(5)
         Damage: 2 + rand(3) + ({level} / 12)
         Experience: rand(5) + 1 + rand({level} / 5)
         CurrencyChance: 5.0 + ({level} / 5)
         CurrencyValue: 3.0 + ({level} / 3) + rand(3)
       Names:
         '1':
-          Name: Alexsmobs Triops
+          Name: Alexsmobs Blobfish
         '40':
-          Name: Epic Alexsmobs Triops
-    ALEXSMOBS_COCKROACH:
-      Disabled: false
-      AllowDespawn: false
-      DisabledWorlds: []
-      Formulas:
-        Health: 6 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 2 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Alexsmobs Cockroach
-        '40':
-          Name: Epic Alexsmobs Cockroach
-    ALEXSMOBS_LEAFCUTTER_ANT:
-      Disabled: false
-      AllowDespawn: false
-      DisabledWorlds: []
-      Formulas:
-        Health: 6 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 2 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Alexsmobs Leafcutter Ant
-        '40':
-          Name: Epic Alexsmobs Leafcutter Ant
-    STRIDER:
-      Disabled: false
-      AllowDespawn: false
-      DisabledWorlds: []
-      Formulas:
-        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 2 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Strider
-        '40':
-          Name: Epic Strider
-    GLOW_SQUID:
-      Disabled: false
-      AllowDespawn: false
-      DisabledWorlds: []
-      Formulas:
-        Health: 10 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 2 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Glow Squid
-        '40':
-          Name: Epic Glow Squid
-    ALEXSMOBS_FLY:
-      Disabled: false
-      AllowDespawn: false
-      DisabledWorlds: []
-      Formulas:
-        Health: 2 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 1 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Alexsmobs Fly
-        '40':
-          Name: Epic Alexsmobs Fly
-    SQUID:
-      Disabled: false
-      AllowDespawn: false
-      DisabledWorlds: []
-      Formulas:
-        Health: 10 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 2 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Squid
-        '40':
-          Name: Epic Squid
-    ENEMYEXPANSION_MEATURE:
-      Disabled: false
-      AllowDespawn: false
-      DisabledWorlds: []
-      Formulas:
-        Health: 28 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 3 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Enemyexpansion Meature
-        '40':
-          Name: Epic Enemyexpansion Meature
-    ALEXSMOBS_GIANT_SQUID:
-      Disabled: false
-      AllowDespawn: false
-      DisabledWorlds: []
-      Formulas:
-        Health: 38 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 8 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Alexsmobs Giant Squid
-        '40':
-          Name: Epic Alexsmobs Giant Squid
-    AXOLOTL:
-      Disabled: false
-      AllowDespawn: false
-      DisabledWorlds: []
-      Formulas:
-        Health: 14 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 2 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Axolotl
-        '40':
-          Name: Epic Axolotl
+          Name: Epic Alexsmobs Blobfish
     ALEXSMOBS_CACHALOT_WHALE:
       Disabled: false
       AllowDespawn: false
@@ -472,51 +322,6 @@ Entity:
           Name: Spore Scent
         '40':
           Name: Epic Spore Scent
-    MOWZIESMOBS_GROTTOL:
-      Disabled: false
-      AllowDespawn: false
-      DisabledWorlds: []
-      Formulas:
-        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 2 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Mowziesmobs Grottol
-        '40':
-          Name: Epic Mowziesmobs Grottol
-    ALEXSMOBS_FRILLED_SHARK:
-      Disabled: false
-      AllowDespawn: false
-      DisabledWorlds: []
-      Formulas:
-        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 3 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Alexsmobs Frilled Shark
-        '40':
-          Name: Epic Alexsmobs Frilled Shark
-    BEE:
-      Disabled: false
-      AllowDespawn: false
-      DisabledWorlds: []
-      Formulas:
-        Health: 10 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 2 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Bee
-        '40':
-          Name: Epic Bee
     DOLPHIN:
       Disabled: false
       AllowDespawn: false
@@ -532,51 +337,6 @@ Entity:
           Name: Dolphin
         '40':
           Name: Epic Dolphin
-    CRITTERSANDCOMPANIONS_DUMBO_OCTOPUS:
-      Disabled: false
-      AllowDespawn: false
-      DisabledWorlds: []
-      Formulas:
-        Health: 14 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 2 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Crittersandcompanions Dumbo Octopus
-        '40':
-          Name: Epic Crittersandcompanions Dumbo Octopus
-    ALEXSMOBS_FLYING_FISH:
-      Disabled: false
-      AllowDespawn: false
-      DisabledWorlds: []
-      Formulas:
-        Health: 6 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 2 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Alexsmobs Flying Fish
-        '40':
-          Name: Epic Alexsmobs Flying Fish
-    CAT:
-      Disabled: false
-      AllowDespawn: false
-      DisabledWorlds: []
-      Formulas:
-        Health: 10 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 3 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Cat
-        '40':
-          Name: Epic Cat
     COD:
       Disabled: false
       AllowDespawn: false
@@ -592,21 +352,351 @@ Entity:
           Name: Cod
         '40':
           Name: Epic Cod
-    SALMON:
+    CRITTERSANDCOMPANIONS_DUMBO_OCTOPUS:
       Disabled: false
       AllowDespawn: false
       DisabledWorlds: []
       Formulas:
-        Health: 3 + ({level} / 3) + ({level} / 5) + rand(5)
+        Health: 14 + ({level} / 3) + ({level} / 5) + rand(5)
         Damage: 2 + rand(3) + ({level} / 12)
         Experience: rand(5) + 1 + rand({level} / 5)
         CurrencyChance: 5.0 + ({level} / 5)
         CurrencyValue: 3.0 + ({level} / 3) + rand(3)
       Names:
         '1':
-          Name: Salmon
+          Name: Crittersandcompanions Dumbo Octopus
         '40':
-          Name: Epic Salmon
+          Name: Epic Crittersandcompanions Dumbo Octopus
+    CRITTERSANDCOMPANIONS_SEA_BUNNY:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 8 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 2 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Crittersandcompanions Sea Bunny
+        '40':
+          Name: Epic Crittersandcompanions Sea Bunny
+    SPORE_MOUND:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 2 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Spore Mound
+        '40':
+          Name: Epic Spore Mound
+    ALEXSMOBS_FRILLED_SHARK:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 3 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Alexsmobs Frilled Shark
+        '40':
+          Name: Epic Alexsmobs Frilled Shark
+    GLOW_SQUID:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 10 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 2 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Glow Squid
+        '40':
+          Name: Epic Glow Squid
+    AXOLOTL:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 14 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 2 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Axolotl
+        '40':
+          Name: Epic Axolotl
+    ALEXSMOBS_FLYING_FISH:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 6 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 2 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Alexsmobs Flying Fish
+        '40':
+          Name: Epic Alexsmobs Flying Fish
+    ALEXSMOBS_FLY:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 2 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 1 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Alexsmobs Fly
+        '40':
+          Name: Epic Alexsmobs Fly
+    ALEXSMOBS_GIANT_SQUID:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 38 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 8 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Alexsmobs Giant Squid
+        '40':
+          Name: Epic Alexsmobs Giant Squid
+    ALEXSMOBS_COCKROACH:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 6 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 2 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Alexsmobs Cockroach
+        '40':
+          Name: Epic Alexsmobs Cockroach
+    SPORE_TENDRIL:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 1 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 2 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Spore Tendril
+        '40':
+          Name: Epic Spore Tendril
+    STRIDER:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 2 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Strider
+        '40':
+          Name: Epic Strider
+    BEE:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 10 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 2 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Bee
+        '40':
+          Name: Epic Bee
+    SQUID:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 10 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 2 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Squid
+        '40':
+          Name: Epic Squid
+    GRIMOIREOFGAIA_CYAN_FLOWER:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 1 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 2 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Grimoireofgaia Cyan Flower
+        '40':
+          Name: Epic Grimoireofgaia Cyan Flower
+    ALEXSMOBS_TERRAPIN:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 10 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 2 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Alexsmobs Terrapin
+        '40':
+          Name: Epic Alexsmobs Terrapin
+    ALEXSMOBS_CATFISH:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 2 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Alexsmobs Catfish
+        '40':
+          Name: Epic Alexsmobs Catfish
+    ALEXSMOBS_LOBSTER:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 5 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 2 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Alexsmobs Lobster
+        '40':
+          Name: Epic Alexsmobs Lobster
+    LUMINOUSWORLD_BUCKEYE:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 1 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 3 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Luminousworld Buckeye
+        '40':
+          Name: Epic Luminousworld Buckeye
+    LUMINOUSWORLD_WHITE_HAIRSTREAK:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 1 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 3 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Luminousworld White Hairstreak
+        '40':
+          Name: Epic Luminousworld White Hairstreak
+    LUMINOUSWORLD_HAIRSTREAK:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 1 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 3 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Luminousworld Hairstreak
+        '40':
+          Name: Epic Luminousworld Hairstreak
+    ENEMYEXPANSION_MEATURE:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 23 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 3 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Enemyexpansion Meature
+        '40':
+          Name: Epic Enemyexpansion Meature
+    LUMINOUSWORLD_SPRING_AZURE:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 1 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 3 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Luminousworld Spring Azure
+        '40':
+          Name: Epic Luminousworld Spring Azure
     TROPICAL_FISH:
       Disabled: false
       AllowDespawn: false
@@ -637,6 +727,21 @@ Entity:
           Name: Alexsmobs Flutter
         '40':
           Name: Epic Alexsmobs Flutter
+    LUMINOUSWORLD_YELLOW_SWALLOWTAIL:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 1 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 3 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Luminousworld Yellow Swallowtail
+        '40':
+          Name: Epic Luminousworld Yellow Swallowtail
     CHICKEN:
       Disabled: false
       AllowDespawn: false
@@ -652,81 +757,36 @@ Entity:
           Name: Chicken
         '40':
           Name: Epic Chicken
-    MOWZIESMOBS_NAGA:
+    LUMINOUSWORLD_FIREFLY:
       Disabled: false
       AllowDespawn: false
       DisabledWorlds: []
       Formulas:
-        Health: 30 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 4 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Mowziesmobs Naga
-        '40':
-          Name: Epic Mowziesmobs Naga
-    CRITTERSANDCOMPANIONS_SEA_BUNNY:
-      Disabled: false
-      AllowDespawn: false
-      DisabledWorlds: []
-      Formulas:
-        Health: 8 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 2 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Crittersandcompanions Sea Bunny
-        '40':
-          Name: Epic Crittersandcompanions Sea Bunny
-    ALEXSMOBS_UNDERMINER:
-      Disabled: false
-      AllowDespawn: false
-      DisabledWorlds: []
-      Formulas:
-        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
+        Health: 1 + ({level} / 3) + ({level} / 5) + rand(5)
         Damage: 3 + rand(3) + ({level} / 12)
         Experience: rand(5) + 1 + rand({level} / 5)
         CurrencyChance: 5.0 + ({level} / 5)
         CurrencyValue: 3.0 + ({level} / 3) + rand(3)
       Names:
         '1':
-          Name: Alexsmobs Underminer
+          Name: Luminousworld Firefly
         '40':
-          Name: Epic Alexsmobs Underminer
-    ALEXSMOBS_CATFISH:
+          Name: Epic Luminousworld Firefly
+    LUMINOUSWORLD_TROUT_FISH:
       Disabled: false
       AllowDespawn: false
       DisabledWorlds: []
       Formulas:
-        Health: 10 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 2 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Alexsmobs Catfish
-        '40':
-          Name: Epic Alexsmobs Catfish
-    SAMURAI_DYNASTY_KAWAUSO:
-      Disabled: false
-      AllowDespawn: false
-      DisabledWorlds: []
-      Formulas:
-        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
+        Health: 3 + ({level} / 3) + ({level} / 5) + rand(5)
         Damage: 3 + rand(3) + ({level} / 12)
         Experience: rand(5) + 1 + rand({level} / 5)
         CurrencyChance: 5.0 + ({level} / 5)
         CurrencyValue: 3.0 + ({level} / 3) + rand(3)
       Names:
         '1':
-          Name: Samurai Dynasty Kawauso
+          Name: Luminousworld Trout Fish
         '40':
-          Name: Epic Samurai Dynasty Kawauso
+          Name: Epic Luminousworld Trout Fish
     LUMINOUSWORLD_BASS_FISH:
       Disabled: false
       AllowDespawn: false
@@ -742,21 +802,186 @@ Entity:
           Name: Luminousworld Bass Fish
         '40':
           Name: Epic Luminousworld Bass Fish
-    GRIMOIREOFGAIA_CYAN_FLOWER:
+    LUMINOUSWORLD_RUSTY_PAGE:
       Disabled: false
       AllowDespawn: false
       DisabledWorlds: []
       Formulas:
         Health: 1 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 3 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Luminousworld Rusty Page
+        '40':
+          Name: Epic Luminousworld Rusty Page
+    CAT:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 10 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 3 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Cat
+        '40':
+          Name: Epic Cat
+    LUMINOUSWORLD_BLUE_MONARCH:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 1 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 3 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Luminousworld Blue Monarch
+        '40':
+          Name: Epic Luminousworld Blue Monarch
+    HOGLIN:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 40 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 0 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Hoglin
+        '40':
+          Name: Epic Hoglin
+    SHEEP:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 8 + ({level} / 3) + ({level} / 5) + rand(5)
         Damage: 2 + rand(3) + ({level} / 12)
         Experience: rand(5) + 1 + rand({level} / 5)
         CurrencyChance: 5.0 + ({level} / 5)
         CurrencyValue: 3.0 + ({level} / 3) + rand(3)
       Names:
         '1':
-          Name: Grimoireofgaia Cyan Flower
+          Name: Sheep
         '40':
-          Name: Epic Grimoireofgaia Cyan Flower
+          Name: Epic Sheep
+    ALEXSMOBS_STRADPOLE:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 4 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 2 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Alexsmobs Stradpole
+        '40':
+          Name: Epic Alexsmobs Stradpole
+    TRADER_LLAMA:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 25 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 2 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Trader Llama
+        '40':
+          Name: Epic Trader Llama
+    ALEXSMOBS_UNDERMINER:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 3 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Alexsmobs Underminer
+        '40':
+          Name: Epic Alexsmobs Underminer
+    LUMINOUSWORLD_SWALLOWTAIL:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 1 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 3 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Luminousworld Swallowtail
+        '40':
+          Name: Epic Luminousworld Swallowtail
+    HORSE:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 19 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 2 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Horse
+        '40':
+          Name: Epic Horse
+    MOWZIESMOBS_LANTERN:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 4 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 2 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Mowziesmobs Lantern
+        '40':
+          Name: Epic Mowziesmobs Lantern
+    FOX:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 10 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 2 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Fox
+        '40':
+          Name: Epic Fox
     LUMINOUSWORLD_EMERALD_SWALLOWTAIL:
       Disabled: false
       AllowDespawn: false
@@ -772,96 +997,96 @@ Entity:
           Name: Luminousworld Emerald Swallowtail
         '40':
           Name: Epic Luminousworld Emerald Swallowtail
-    CRITTERSANDCOMPANIONS_KOI_FISH:
+    SALMON:
       Disabled: false
       AllowDespawn: false
       DisabledWorlds: []
       Formulas:
-        Health: 8 + ({level} / 3) + ({level} / 5) + rand(5)
+        Health: 3 + ({level} / 3) + ({level} / 5) + rand(5)
         Damage: 2 + rand(3) + ({level} / 12)
         Experience: rand(5) + 1 + rand({level} / 5)
         CurrencyChance: 5.0 + ({level} / 5)
         CurrencyValue: 3.0 + ({level} / 3) + rand(3)
       Names:
         '1':
-          Name: Crittersandcompanions Koi Fish
+          Name: Salmon
         '40':
-          Name: Epic Crittersandcompanions Koi Fish
-    ALEXSMOBS_TERRAPIN:
-      Disabled: false
-      AllowDespawn: false
-      DisabledWorlds: []
-      Formulas:
-        Health: 10 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 2 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Alexsmobs Terrapin
-        '40':
-          Name: Epic Alexsmobs Terrapin
-    ALEXSMOBS_LOBSTER:
-      Disabled: false
-      AllowDespawn: false
-      DisabledWorlds: []
-      Formulas:
-        Health: 5 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 2 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Alexsmobs Lobster
-        '40':
-          Name: Epic Alexsmobs Lobster
-    SPORE_MOUND:
+          Name: Epic Salmon
+    SAMURAI_DYNASTY_KOMAINU:
       Disabled: false
       AllowDespawn: false
       DisabledWorlds: []
       Formulas:
         Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 2 + rand(3) + ({level} / 12)
+        Damage: 3 + rand(3) + ({level} / 12)
         Experience: rand(5) + 1 + rand({level} / 5)
         CurrencyChance: 5.0 + ({level} / 5)
         CurrencyValue: 3.0 + ({level} / 3) + rand(3)
       Names:
         '1':
-          Name: Spore Mound
+          Name: Samurai Dynasty Komainu
         '40':
-          Name: Epic Spore Mound
-    VILLAGER:
+          Name: Epic Samurai Dynasty Komainu
+    LUMINOUSWORLD_CRAB:
       Disabled: false
       AllowDespawn: false
       DisabledWorlds: []
       Formulas:
-        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 2 + rand(3) + ({level} / 12)
+        Health: 6 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 3 + rand(3) + ({level} / 12)
         Experience: rand(5) + 1 + rand({level} / 5)
         CurrencyChance: 5.0 + ({level} / 5)
         CurrencyValue: 3.0 + ({level} / 3) + rand(3)
       Names:
         '1':
-          Name: Villager
+          Name: Luminousworld Crab
         '40':
-          Name: Epic Villager
-    ALEXSMOBS_BLOBFISH:
+          Name: Epic Luminousworld Crab
+    LUMINOUSWORLD_MONARCH:
       Disabled: false
       AllowDespawn: false
       DisabledWorlds: []
       Formulas:
-        Health: 8 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 2 + rand(3) + ({level} / 12)
+        Health: 1 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 3 + rand(3) + ({level} / 12)
         Experience: rand(5) + 1 + rand({level} / 5)
         CurrencyChance: 5.0 + ({level} / 5)
         CurrencyValue: 3.0 + ({level} / 3) + rand(3)
       Names:
         '1':
-          Name: Alexsmobs Blobfish
+          Name: Luminousworld Monarch
         '40':
-          Name: Epic Alexsmobs Blobfish
+          Name: Epic Luminousworld Monarch
+    MOWZIESMOBS_NAGA:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 30 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 4 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Mowziesmobs Naga
+        '40':
+          Name: Epic Mowziesmobs Naga
+    SPORE_PROTO:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 100 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 10 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Spore Proto
+        '40':
+          Name: Epic Spore Proto
     SKELETON_HORSE:
       Disabled: false
       AllowDespawn: false
@@ -877,21 +1102,21 @@ Entity:
           Name: Skeleton Horse
         '40':
           Name: Epic Skeleton Horse
-    CRITTERSANDCOMPANIONS_DRAGONFLY:
+    WANDERING_TRADER:
       Disabled: false
       AllowDespawn: false
       DisabledWorlds: []
       Formulas:
-        Health: 4 + ({level} / 3) + ({level} / 5) + rand(5)
+        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
         Damage: 2 + rand(3) + ({level} / 12)
         Experience: rand(5) + 1 + rand({level} / 5)
         CurrencyChance: 5.0 + ({level} / 5)
         CurrencyValue: 3.0 + ({level} / 3) + rand(3)
       Names:
         '1':
-          Name: Crittersandcompanions Dragonfly
+          Name: Wandering Trader
         '40':
-          Name: Epic Crittersandcompanions Dragonfly
+          Name: Epic Wandering Trader
     PIG:
       Disabled: false
       AllowDespawn: false
@@ -907,21 +1132,81 @@ Entity:
           Name: Pig
         '40':
           Name: Epic Pig
-    GRIMOIREOFGAIA_HORSE:
+    ALEXSMOBS_SUGAR_GLIDER:
       Disabled: false
       AllowDespawn: false
       DisabledWorlds: []
       Formulas:
-        Health: 15 + ({level} / 3) + ({level} / 5) + rand(5)
+        Health: 8 + ({level} / 3) + ({level} / 5) + rand(5)
         Damage: 2 + rand(3) + ({level} / 12)
         Experience: rand(5) + 1 + rand({level} / 5)
         CurrencyChance: 5.0 + ({level} / 5)
         CurrencyValue: 3.0 + ({level} / 3) + rand(3)
       Names:
         '1':
-          Name: Grimoireofgaia Horse
+          Name: Alexsmobs Sugar Glider
         '40':
-          Name: Epic Grimoireofgaia Horse
+          Name: Epic Alexsmobs Sugar Glider
+    MOWZIESMOBS_GROTTOL:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 2 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Mowziesmobs Grottol
+        '40':
+          Name: Epic Mowziesmobs Grottol
+    CRITTERSANDCOMPANIONS_OTTER:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 16 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 3 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Crittersandcompanions Otter
+        '40':
+          Name: Epic Crittersandcompanions Otter
+    CRITTERSANDCOMPANIONS_KOI_FISH:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 8 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 2 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Crittersandcompanions Koi Fish
+        '40':
+          Name: Epic Crittersandcompanions Koi Fish
+    SPORE_VIGIL:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 60 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 2 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Spore Vigil
+        '40':
+          Name: Epic Spore Vigil
   Misc:
     Disabled: true
     BAT:
@@ -939,6 +1224,21 @@ Entity:
           Name: Bat
         '40':
           Name: Epic Bat
+    MAGMA_CUBE:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 4 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 2 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Magma Cube
+        '40':
+          Name: Epic Magma Cube
     PHANTOM:
       Disabled: false
       AllowDespawn: false
@@ -954,6 +1254,21 @@ Entity:
           Name: Phantom
         '40':
           Name: Epic Phantom
+    ARMOR_STAND:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 2 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Armor Stand
+        '40':
+          Name: Epic Armor Stand
     ENEMYEXPANSION_VAMPBITER:
       Disabled: false
       AllowDespawn: false
@@ -969,6 +1284,21 @@ Entity:
           Name: Enemyexpansion Vampbiter
         '40':
           Name: Epic Enemyexpansion Vampbiter
+    DUMMMMMMY_TARGET_DUMMY:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 200 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 0 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Dummmmmmy Target Dummy
+        '40':
+          Name: Epic Dummmmmmy Target Dummy
     ALEXSMOBS_CENTIPEDE_BODY:
       Disabled: false
       AllowDespawn: false
@@ -999,21 +1329,21 @@ Entity:
           Name: Alexsmobs Centipede Tail
         '40':
           Name: Epic Alexsmobs Centipede Tail
-    ARMOR_STAND:
+    SLIME:
       Disabled: false
       AllowDespawn: false
       DisabledWorlds: []
       Formulas:
-        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
+        Health: 4 + ({level} / 3) + ({level} / 5) + rand(5)
         Damage: 2 + rand(3) + ({level} / 12)
         Experience: rand(5) + 1 + rand({level} / 5)
         CurrencyChance: 5.0 + ({level} / 5)
         CurrencyValue: 3.0 + ({level} / 3) + rand(3)
       Names:
         '1':
-          Name: Armor Stand
+          Name: Slime
         '40':
-          Name: Epic Armor Stand
+          Name: Epic Slime
   Monster:
     Disabled: false # Can disabled full groups
     ZOMBIE:
@@ -1065,51 +1395,51 @@ Entity:
           Name: Zombie
         '40':
           Name: Strong Zombie
-    UNDEAD_REVAMP2_THE_MOONFLOWER:
+    SILVERFISH:
       Disabled: false
       AllowDespawn: true
       DisabledWorlds: []
       Formulas:
-        Health: 25 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 4 + rand(3) + ({level} / 12)
+        Health: 8 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 1 + rand(3) + ({level} / 12)
         Experience: rand(5) + 1 + rand({level} / 5)
         CurrencyChance: 5.0 + ({level} / 5)
         CurrencyValue: 3.0 + ({level} / 3) + rand(3)
       Names:
         '1':
-          Name: Undead Revamp2 The Moonflower
+          Name: Silverfish
         '40':
-          Name: Epic Undead Revamp2 The Moonflower
-    ZOMBIE_VILLAGER:
+          Name: Epic Silverfish
+    GUARDIAN:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 30 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 6 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Guardian
+        '40':
+          Name: Epic Guardian
+    SPORE_INF_PILLAGER:
       Disabled: false
       AllowDespawn: true
       DisabledWorlds: []
       Formulas:
         Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 3 + rand(3) + ({level} / 12)
+        Damage: 6 + rand(3) + ({level} / 12)
         Experience: rand(5) + 1 + rand({level} / 5)
         CurrencyChance: 5.0 + ({level} / 5)
         CurrencyValue: 3.0 + ({level} / 3) + rand(3)
       Names:
         '1':
-          Name: Zombie Villager
+          Name: Spore Inf Pillager
         '40':
-          Name: Epic Zombie Villager
-    BORN_IN_CHAOS_V1_DECREPIT_SKELETON:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 15 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 3 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Born In Chaos V1 Decrepit Skeleton
-        '40':
-          Name: Epic Born In Chaos V1 Decrepit Skeleton
+          Name: Epic Spore Inf Pillager
     BORN_IN_CHAOS_V1_MAGGOT:
       Disabled: false
       AllowDespawn: true
@@ -1125,21 +1455,291 @@ Entity:
           Name: Born In Chaos V1 Maggot
         '40':
           Name: Epic Born In Chaos V1 Maggot
-    GRAVEYARD_CORRUPTED_VINDICATOR:
+    BORN_IN_CHAOS_V1_CORPSE_FLY:
       Disabled: false
       AllowDespawn: true
       DisabledWorlds: []
       Formulas:
-        Health: 24 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 5 + rand(3) + ({level} / 12)
+        Health: 10 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 2 + rand(3) + ({level} / 12)
         Experience: rand(5) + 1 + rand({level} / 5)
         CurrencyChance: 5.0 + ({level} / 5)
         CurrencyValue: 3.0 + ({level} / 3) + rand(3)
       Names:
         '1':
-          Name: Graveyard Corrupted Vindicator
+          Name: Born In Chaos V1 Corpse Fly
         '40':
-          Name: Epic Graveyard Corrupted Vindicator
+          Name: Epic Born In Chaos V1 Corpse Fly
+    GRIMOIREOFGAIA_CREEP:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 40 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 4 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Grimoireofgaia Creep
+        '40':
+          Name: Epic Grimoireofgaia Creep
+    GRIMOIREOFGAIA_DEATHWORD:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 40 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 4 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Grimoireofgaia Deathword
+        '40':
+          Name: Epic Grimoireofgaia Deathword
+    SPORE_LEAPER:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 63 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 14 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Spore Leaper
+        '40':
+          Name: Epic Spore Leaper
+    SPORE_INF_HUMAN:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 15 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 6 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Spore Inf Human
+        '40':
+          Name: Epic Spore Inf Human
+    GRIMOIREOFGAIA_FLESH_LICH:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 80 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 8 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Grimoireofgaia Flesh Lich
+        '40':
+          Name: Epic Grimoireofgaia Flesh Lich
+    BORN_IN_CHAOS_V1_NIGHTMARE_STALKER:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 70 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 7 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Born In Chaos V1 Nightmare Stalker
+        '40':
+          Name: Epic Born In Chaos V1 Nightmare Stalker
+    ENEMYEXPANSION_DIREWOLF:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 16 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 3 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Enemyexpansion Direwolf
+        '40':
+          Name: Epic Enemyexpansion Direwolf
+    BORN_IN_CHAOS_V1_CORPSE_FISH:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 12 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 2 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Born In Chaos V1 Corpse Fish
+        '40':
+          Name: Epic Born In Chaos V1 Corpse Fish
+    DROWNED:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 3 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Drowned
+        '40':
+          Name: Epic Drowned
+    CATACLYSM_LIONFISH:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 12 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 2 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Cataclysm Lionfish
+        '40':
+          Name: Epic Cataclysm Lionfish
+    SPORE_INF_VILLAGER:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 6 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Spore Inf Villager
+        '40':
+          Name: Epic Spore Inf Villager
+    BORN_IN_CHAOS_V1_RESTLESS_SPIRIT:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 24 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 2 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Born In Chaos V1 Restless Spirit
+        '40':
+          Name: Epic Born In Chaos V1 Restless Spirit
+    CATACLYSM_DEEPLING_ANGLER:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 30 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 4 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Cataclysm Deepling Angler
+        '40':
+          Name: Epic Cataclysm Deepling Angler
+    UNDEAD_REVAMP2_THESMOKER:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 25 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 3 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Undead Revamp2 Thesmoker
+        '40':
+          Name: Epic Undead Revamp2 Thesmoker
+    GRIMOIREOFGAIA_KOBOLD:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 40 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 4 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Grimoireofgaia Kobold
+        '40':
+          Name: Epic Grimoireofgaia Kobold
+    UNDEAD_REVAMP2_SUCKER:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 15 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 4 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Undead Revamp2 Sucker
+        '40':
+          Name: Epic Undead Revamp2 Sucker
+    BORN_IN_CHAOS_V1_DECREPIT_SKELETON:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 15 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 3 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Born In Chaos V1 Decrepit Skeleton
+        '40':
+          Name: Epic Born In Chaos V1 Decrepit Skeleton
+    ENEMYEXPANSION_LADYBUG:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 28 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 6 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Enemyexpansion Ladybug
+        '40':
+          Name: Epic Enemyexpansion Ladybug
     BORN_IN_CHAOS_V1_DECAYING_ZOMBIE:
       Disabled: false
       AllowDespawn: true
@@ -1170,81 +1770,6 @@ Entity:
           Name: Grimoireofgaia Ender Eye
         '40':
           Name: Epic Grimoireofgaia Ender Eye
-    GRIMOIREOFGAIA_CREEP:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 40 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 4 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Grimoireofgaia Creep
-        '40':
-          Name: Epic Grimoireofgaia Creep
-    GRAVEYARD_CORRUPTED_PILLAGER:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 24 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 3 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Graveyard Corrupted Pillager
-        '40':
-          Name: Epic Graveyard Corrupted Pillager
-    GRIMOIREOFGAIA_DEATHWORD:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 40 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 4 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Grimoireofgaia Deathword
-        '40':
-          Name: Epic Grimoireofgaia Deathword
-    SPORE_INF_WANDERER:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 6 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Spore Inf Wanderer
-        '40':
-          Name: Epic Spore Inf Wanderer
-    GRAVEYARD_NIGHTMARE:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 45 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 10 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Graveyard Nightmare
-        '40':
-          Name: Epic Graveyard Nightmare
     SPIDER:
       Disabled: false
       AllowDespawn: true
@@ -1260,21 +1785,6 @@ Entity:
           Name: Spider
         '40':
           Name: Epic Spider
-    GRIMOIREOFGAIA_FLESH_LICH:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 80 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 8 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Grimoireofgaia Flesh Lich
-        '40':
-          Name: Epic Grimoireofgaia Flesh Lich
     SKELETON:
       Disabled: false
       AllowDespawn: true
@@ -1290,21 +1800,6 @@ Entity:
           Name: Skeleton
         '40':
           Name: Epic Skeleton
-    SPORE_INF_VILLAGER:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 6 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Spore Inf Villager
-        '40':
-          Name: Epic Spore Inf Villager
     ENEMYEXPANSION_SPRINTER:
       Disabled: false
       AllowDespawn: true
@@ -1320,606 +1815,6 @@ Entity:
           Name: Enemyexpansion Sprinter
         '40':
           Name: Epic Enemyexpansion Sprinter
-    ENEMYEXPANSION_INTRUDER:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 40 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 0 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Enemyexpansion Intruder
-        '40':
-          Name: Epic Enemyexpansion Intruder
-    ZOMBIFIED_PIGLIN:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 5 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Zombified Piglin
-        '40':
-          Name: Epic Zombified Piglin
-    ENEMYEXPANSION_HUNTSMAN:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 36 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 4 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Enemyexpansion Huntsman
-        '40':
-          Name: Epic Enemyexpansion Huntsman
-    SPORE_INF_PILLAGER:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 6 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Spore Inf Pillager
-        '40':
-          Name: Epic Spore Inf Pillager
-    SPORE_INF_DROWNED:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 16 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 5 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Spore Inf Drowned
-        '40':
-          Name: Epic Spore Inf Drowned
-    SPORE_INF_WITCH:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 25 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 4 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Spore Inf Witch
-        '40':
-          Name: Epic Spore Inf Witch
-    GRIMOIREOFGAIA_ARACHNE:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 40 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 4 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Grimoireofgaia Arachne
-        '40':
-          Name: Epic Grimoireofgaia Arachne
-    SPORE_INF_HUMAN:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 15 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 6 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Spore Inf Human
-        '40':
-          Name: Epic Spore Inf Human
-    ENEMYEXPANSION_FALLER:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 12 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 0 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Enemyexpansion Faller
-        '40':
-          Name: Epic Enemyexpansion Faller
-    GRIMOIREOFGAIA_SATYRESS:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 40 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 4 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Grimoireofgaia Satyress
-        '40':
-          Name: Epic Grimoireofgaia Satyress
-    CREEPEROVERHAUL_DESERT_CREEPER:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 2 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Creeperoverhaul Desert Creeper
-        '40':
-          Name: Epic Creeperoverhaul Desert Creeper
-    GRAVEYARD_ACOLYTE:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 24 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 5 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Graveyard Acolyte
-        '40':
-          Name: Epic Graveyard Acolyte
-    UNDEAD_REVAMP2_THEORDURE:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 25 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 0 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Undead Revamp2 Theordure
-        '40':
-          Name: Epic Undead Revamp2 Theordure
-    ENEMYEXPANSION_DIREWOLF:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 16 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 3 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Enemyexpansion Direwolf
-        '40':
-          Name: Epic Enemyexpansion Direwolf
-    ENEMYEXPANSION_VAMPFLYER:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 30 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 6 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Enemyexpansion Vampflyer
-        '40':
-          Name: Epic Enemyexpansion Vampflyer
-    BORN_IN_CHAOS_V1_BABY_SPIDER:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 10 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 2 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Born In Chaos V1 Baby Spider
-        '40':
-          Name: Epic Born In Chaos V1 Baby Spider
-    SPORE_INF_PLAYER:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 21 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 4 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Spore Inf Player
-        '40':
-          Name: Epic Spore Inf Player
-    BORN_IN_CHAOS_V1_CORPSE_FLY:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 10 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 2 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Born In Chaos V1 Corpse Fly
-        '40':
-          Name: Epic Born In Chaos V1 Corpse Fly
-    LUMINOUSWORLD_DARK_OAK_ZOMBIE:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 25 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 3 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Luminousworld Dark Oak Zombie
-        '40':
-          Name: Epic Luminousworld Dark Oak Zombie
-    BORN_IN_CHAOS_V1_DREAD_HOUND:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 17 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 5 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Born In Chaos V1 Dread Hound
-        '40':
-          Name: Epic Born In Chaos V1 Dread Hound
-    ENEMYEXPANSION_VAMPIRE:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 30 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 6 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Enemyexpansion Vampire
-        '40':
-          Name: Epic Enemyexpansion Vampire
-    GRIMOIREOFGAIA_BONE_KNIGHT:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 80 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 8 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Grimoireofgaia Bone Knight
-        '40':
-          Name: Epic Grimoireofgaia Bone Knight
-    DROWNED:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 3 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Drowned
-        '40':
-          Name: Epic Drowned
-    UNDEAD_REVAMP2_THESPITTER:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 8 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 3 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Undead Revamp2 Thespitter
-        '40':
-          Name: Epic Undead Revamp2 Thespitter
-    LUMINOUSWORLD_PHEONIX:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 120 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 15 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Luminousworld Pheonix
-        '40':
-          Name: Epic Luminousworld Pheonix
-    GRIMOIREOFGAIA_HARPY:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 40 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 4 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Grimoireofgaia Harpy
-        '40':
-          Name: Epic Grimoireofgaia Harpy
-    GRIMOIREOFGAIA_MIMIC:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 40 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 4 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Grimoireofgaia Mimic
-        '40':
-          Name: Epic Grimoireofgaia Mimic
-    ENEMYEXPANSION_CRAWLER:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 0 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Enemyexpansion Crawler
-        '40':
-          Name: Epic Enemyexpansion Crawler
-    GRAVEYARD_SKELETON_CREEPER:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 2 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Graveyard Skeleton Creeper
-        '40':
-          Name: Epic Graveyard Skeleton Creeper
-    UNDEAD_REVAMP2_BOMBER:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 35 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 3 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Undead Revamp2 Bomber
-        '40':
-          Name: Epic Undead Revamp2 Bomber
-    BORN_IN_CHAOS_V1_CORPSE_FISH:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 12 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 2 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Born In Chaos V1 Corpse Fish
-        '40':
-          Name: Epic Born In Chaos V1 Corpse Fish
-    ENDERMAN:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 40 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 7 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Enderman
-        '40':
-          Name: Epic Enderman
-    BORN_IN_CHAOS_V1_FALLEN_CHAOS_KNIGHT:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 40 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 5 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Born In Chaos V1 Fallen Chaos Knight
-        '40':
-          Name: Epic Born In Chaos V1 Fallen Chaos Knight
-    CREEPEROVERHAUL_BADLANDS_CREEPER:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 30 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 2 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Creeperoverhaul Badlands Creeper
-        '40':
-          Name: Epic Creeperoverhaul Badlands Creeper
-    ENEMYEXPANSION_SILVERQUEEN:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 30 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 8 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Enemyexpansion Silverqueen
-        '40':
-          Name: Epic Enemyexpansion Silverqueen
-    BORN_IN_CHAOS_V1_ZOMBIE_CLOWN:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 35 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 3 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Born In Chaos V1 Zombie Clown
-        '40':
-          Name: Epic Born In Chaos V1 Zombie Clown
-    WITCH:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 26 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 2 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Witch
-        '40':
-          Name: Epic Witch
-    BORN_IN_CHAOS_V1_SPIRIT_GUIDE_ASSISTANT:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 15 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 2 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Born In Chaos V1 Spirit Guide Assistant
-        '40':
-          Name: Epic Born In Chaos V1 Spirit Guide Assistant
-    BORN_IN_CHAOS_V1_DOOR_KNIGHT:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 30 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 6 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Born In Chaos V1 Door Knight
-        '40':
-          Name: Epic Born In Chaos V1 Door Knight
-    UNDEAD_REVAMP2_THESMOKER:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 25 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 3 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Undead Revamp2 Thesmoker
-        '40':
-          Name: Epic Undead Revamp2 Thesmoker
     CREEPER:
       Disabled: false
       AllowDespawn: true
@@ -1935,21 +1830,36 @@ Entity:
           Name: Creeper
         '40':
           Name: Epic Creeper
-    UNDEAD_REVAMP2_THESKEEPER:
+    CREEPEROVERHAUL_SNOWY_CREEPER:
       Disabled: false
       AllowDespawn: true
       DisabledWorlds: []
       Formulas:
         Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 3 + rand(3) + ({level} / 12)
+        Damage: 4 + rand(3) + ({level} / 12)
         Experience: rand(5) + 1 + rand({level} / 5)
         CurrencyChance: 5.0 + ({level} / 5)
         CurrencyValue: 3.0 + ({level} / 3) + rand(3)
       Names:
         '1':
-          Name: Undead Revamp2 Theskeeper
+          Name: Creeperoverhaul Snowy Creeper
         '40':
-          Name: Epic Undead Revamp2 Theskeeper
+          Name: Epic Creeperoverhaul Snowy Creeper
+    ENEMYEXPANSION_VAMPIRE:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 30 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 6 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Enemyexpansion Vampire
+        '40':
+          Name: Epic Enemyexpansion Vampire
     UNDEAD_REVAMP2_THEHUNTER:
       Disabled: false
       AllowDespawn: true
@@ -1965,6 +1875,21 @@ Entity:
           Name: Undead Revamp2 Thehunter
         '40':
           Name: Epic Undead Revamp2 Thehunter
+    ENEMYEXPANSION_HUNTSMAN:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 36 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 4 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Enemyexpansion Huntsman
+        '40':
+          Name: Epic Enemyexpansion Huntsman
     UNDEAD_REVAMP2_INVISIBLEBIDY:
       Disabled: false
       AllowDespawn: true
@@ -1995,486 +1920,6 @@ Entity:
           Name: Enemyexpansion Slugger
         '40':
           Name: Epic Enemyexpansion Slugger
-    ENEMYEXPANSION_BOTFLY:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 4 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 3 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Enemyexpansion Botfly
-        '40':
-          Name: Epic Enemyexpansion Botfly
-    BORN_IN_CHAOS_V1_BABY_SKELETON:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 10 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 2 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Born In Chaos V1 Baby Skeleton
-        '40':
-          Name: Epic Born In Chaos V1 Baby Skeleton
-    BORN_IN_CHAOS_V1_DARK_VORTEX:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 35 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 4 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Born In Chaos V1 Dark Vortex
-        '40':
-          Name: Epic Born In Chaos V1 Dark Vortex
-    BORN_IN_CHAOS_V1_RESTLESS_SPIRIT:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 24 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 2 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Born In Chaos V1 Restless Spirit
-        '40':
-          Name: Epic Born In Chaos V1 Restless Spirit
-    SONS_OF_SINS_BETRAYED_GUZZLER:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 30 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 3 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Sons Of Sins Betrayed Guzzler
-        '40':
-          Name: Epic Sons Of Sins Betrayed Guzzler
-    LUMINOUSWORLD_HOLLOW:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 25 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 4 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Luminousworld Hollow
-        '40':
-          Name: Epic Luminousworld Hollow
-    GRIMOIREOFGAIA_MINOTAURUS:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 80 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 8 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Grimoireofgaia Minotaurus
-        '40':
-          Name: Epic Grimoireofgaia Minotaurus
-    BORN_IN_CHAOS_V1_SKELETON_DEMOMAN:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 25 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 3 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Born In Chaos V1 Skeleton Demoman
-        '40':
-          Name: Epic Born In Chaos V1 Skeleton Demoman
-    BORN_IN_CHAOS_V1_SPIRIT_GUIDE:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 32 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 3 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Born In Chaos V1 Spirit Guide
-        '40':
-          Name: Epic Born In Chaos V1 Spirit Guide
-    UNDEAD_REVAMP2_SUCKER:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 15 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 4 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Undead Revamp2 Sucker
-        '40':
-          Name: Epic Undead Revamp2 Sucker
-    SILVERFISH:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 8 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 1 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Silverfish
-        '40':
-          Name: Epic Silverfish
-    BORN_IN_CHAOS_V1_SWARMER:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 40 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 4 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Born In Chaos V1 Swarmer
-        '40':
-          Name: Epic Born In Chaos V1 Swarmer
-    BORN_IN_CHAOS_V1_BONESCALLER:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 25 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 3 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Born In Chaos V1 Bonescaller
-        '40':
-          Name: Epic Born In Chaos V1 Bonescaller
-    BORN_IN_CHAOS_V1_SPIRITOF_CHAOS:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 15 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 3 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Born In Chaos V1 Spiritof Chaos
-        '40':
-          Name: Epic Born In Chaos V1 Spiritof Chaos
-    CREEPEROVERHAUL_SNOWY_CREEPER:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 4 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Creeperoverhaul Snowy Creeper
-        '40':
-          Name: Epic Creeperoverhaul Snowy Creeper
-    UNDEAD_REVAMP2_THEHORRORS:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 45 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 12 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Undead Revamp2 Thehorrors
-        '40':
-          Name: Epic Undead Revamp2 Thehorrors
-    CATACLYSM_DEEPLING_BRUTE:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 60 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 5 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Cataclysm Deepling Brute
-        '40':
-          Name: Epic Cataclysm Deepling Brute
-    GRIMOIREOFGAIA_KOBOLD:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 40 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 4 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Grimoireofgaia Kobold
-        '40':
-          Name: Epic Grimoireofgaia Kobold
-    CATACLYSM_LIONFISH:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 12 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 2 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Cataclysm Lionfish
-        '40':
-          Name: Epic Cataclysm Lionfish
-    ENEMYEXPANSION_TROLL:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 50 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 10 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Enemyexpansion Troll
-        '40':
-          Name: Epic Enemyexpansion Troll
-    CATACLYSM_DEEPLING_ANGLER:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 30 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 4 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Cataclysm Deepling Angler
-        '40':
-          Name: Epic Cataclysm Deepling Angler
-    BORN_IN_CHAOS_V1_SIAMESE_SKELETONS:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 3 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Born In Chaos V1 Siamese Skeletons
-        '40':
-          Name: Epic Born In Chaos V1 Siamese Skeletons
-    CATACLYSM_DEEPLING:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 26 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 4 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Cataclysm Deepling
-        '40':
-          Name: Epic Cataclysm Deepling
-    BORN_IN_CHAOS_V1_SUPREME_BONESCALLER:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 65 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 5 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Born In Chaos V1 Supreme Bonescaller
-        '40':
-          Name: Epic Born In Chaos V1 Supreme Bonescaller
-    BORN_IN_CHAOS_V1_PHANTOM_CREEPER_COPY:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 3 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Born In Chaos V1 Phantom Creeper Copy
-        '40':
-          Name: Epic Born In Chaos V1 Phantom Creeper Copy
-    BORN_IN_CHAOS_V1_PHANTOM_CREEPER:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 3 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Born In Chaos V1 Phantom Creeper
-        '40':
-          Name: Epic Born In Chaos V1 Phantom Creeper
-    BORN_IN_CHAOS_V1_GLUTTON_FISH:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 90 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 12 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Born In Chaos V1 Glutton Fish
-        '40':
-          Name: Epic Born In Chaos V1 Glutton Fish
-    UNDEAD_REVAMP2_THESWARMER:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 45 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 3 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Undead Revamp2 Theswarmer
-        '40':
-          Name: Epic Undead Revamp2 Theswarmer
-    UNDEAD_REVAMP2_THEBIDY:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 10 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 3 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Undead Revamp2 Thebidy
-        '40':
-          Name: Epic Undead Revamp2 Thebidy
-    UNDEAD_REVAMP2_THEROD:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 30 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 3 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Undead Revamp2 Therod
-        '40':
-          Name: Epic Undead Revamp2 Therod
-    UNDEAD_REVAMP2_THESOMNOLENCE:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 12 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 3 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Undead Revamp2 Thesomnolence
-        '40':
-          Name: Epic Undead Revamp2 Thesomnolence
-    UNDEAD_REVAMP2_THEBEARTAMER:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 50 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 3 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Undead Revamp2 Thebeartamer
-        '40':
-          Name: Epic Undead Revamp2 Thebeartamer
     CREEPEROVERHAUL_CAVE_CREEPER:
       Disabled: false
       AllowDespawn: true
@@ -2490,6 +1935,96 @@ Entity:
           Name: Creeperoverhaul Cave Creeper
         '40':
           Name: Epic Creeperoverhaul Cave Creeper
+    LUMINOUSWORLD_MINER_ZOMBIE:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 25 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 3 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Luminousworld Miner Zombie
+        '40':
+          Name: Epic Luminousworld Miner Zombie
+    GRIMOIREOFGAIA_MIMIC:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 40 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 4 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Grimoireofgaia Mimic
+        '40':
+          Name: Epic Grimoireofgaia Mimic
+    BORN_IN_CHAOS_V1_BABY_SKELETON:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 10 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 2 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Born In Chaos V1 Baby Skeleton
+        '40':
+          Name: Epic Born In Chaos V1 Baby Skeleton
+    ENEMYEXPANSION_CRAWLER:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 0 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Enemyexpansion Crawler
+        '40':
+          Name: Epic Enemyexpansion Crawler
+    ENEMYEXPANSION_FALLER:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 12 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 0 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Enemyexpansion Faller
+        '40':
+          Name: Epic Enemyexpansion Faller
+    ENEMYEXPANSION_VAMPFLYER:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 30 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 6 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Enemyexpansion Vampflyer
+        '40':
+          Name: Epic Enemyexpansion Vampflyer
     UNDEAD_REVAMP2_BIGSUCKER:
       Disabled: false
       AllowDespawn: true
@@ -2505,171 +2040,21 @@ Entity:
           Name: Undead Revamp2 Bigsucker
         '40':
           Name: Epic Undead Revamp2 Bigsucker
-    SPORE_BUSSER:
+    GRIMOIREOFGAIA_CYCLOPS:
       Disabled: false
       AllowDespawn: true
       DisabledWorlds: []
       Formulas:
-        Health: 50 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 6 + rand(3) + ({level} / 12)
+        Health: 40 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 4 + rand(3) + ({level} / 12)
         Experience: rand(5) + 1 + rand({level} / 5)
         CurrencyChance: 5.0 + ({level} / 5)
         CurrencyValue: 3.0 + ({level} / 3) + rand(3)
       Names:
         '1':
-          Name: Spore Busser
+          Name: Grimoireofgaia Cyclops
         '40':
-          Name: Epic Spore Busser
-    SPORE_LEAPER:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 55 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 8 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Spore Leaper
-        '40':
-          Name: Epic Spore Leaper
-    UNDEAD_REVAMP2_THESPECTRE:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 3 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Undead Revamp2 Thespectre
-        '40':
-          Name: Epic Undead Revamp2 Thespectre
-    GRIMOIREOFGAIA_SHARKO:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 80 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 8 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Grimoireofgaia Sharko
-        '40':
-          Name: Epic Grimoireofgaia Sharko
-    ENEMYEXPANSION_GOBLIN_FEAR:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 1 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 0 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Enemyexpansion Goblin Fear
-        '40':
-          Name: Epic Enemyexpansion Goblin Fear
-    BORN_IN_CHAOS_V1_DIRE_HOUND_LEADER:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 100 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 10 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Born In Chaos V1 Dire Hound Leader
-        '40':
-          Name: Epic Born In Chaos V1 Dire Hound Leader
-    UNDEAD_REVAMP2_THEWOLF:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 50 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 3 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Undead Revamp2 Thewolf
-        '40':
-          Name: Epic Undead Revamp2 Thewolf
-    BORN_IN_CHAOS_V1_SKELETON_THRASHER:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 50 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 8 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Born In Chaos V1 Skeleton Thrasher
-        '40':
-          Name: Epic Born In Chaos V1 Skeleton Thrasher
-    BORN_IN_CHAOS_V1_BONE_IMP_MINION:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 3 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Born In Chaos V1 Bone Imp Minion
-        '40':
-          Name: Epic Born In Chaos V1 Bone Imp Minion
-    BORN_IN_CHAOS_V1_DIAMOND_TERMITE:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 14 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 2 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Born In Chaos V1 Diamond Termite
-        '40':
-          Name: Epic Born In Chaos V1 Diamond Termite
-    UNDEAD_REVAMP2_THEHORRORSDECOYS:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 50 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 0 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Undead Revamp2 Thehorrorsdecoys
-        '40':
-          Name: Epic Undead Revamp2 Thehorrorsdecoys
+          Name: Epic Grimoireofgaia Cyclops
     GRIMOIREOFGAIA_DRYAD:
       Disabled: false
       AllowDespawn: true
@@ -2700,306 +2085,66 @@ Entity:
           Name: Born In Chaos V1 Zombie Bruiser
         '40':
           Name: Epic Born In Chaos V1 Zombie Bruiser
-    BORN_IN_CHAOS_V1_BABY_SKELETON_MINION:
+    BORN_IN_CHAOS_V1_DREAD_HOUND:
       Disabled: false
       AllowDespawn: true
       DisabledWorlds: []
       Formulas:
-        Health: 10 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 2 + rand(3) + ({level} / 12)
+        Health: 17 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 5 + rand(3) + ({level} / 12)
         Experience: rand(5) + 1 + rand({level} / 5)
         CurrencyChance: 5.0 + ({level} / 5)
         CurrencyValue: 3.0 + ({level} / 3) + rand(3)
       Names:
         '1':
-          Name: Born In Chaos V1 Baby Skeleton Minion
+          Name: Born In Chaos V1 Dread Hound
         '40':
-          Name: Epic Born In Chaos V1 Baby Skeleton Minion
-    GRIMOIREOFGAIA_MERMAID:
+          Name: Epic Born In Chaos V1 Dread Hound
+    BORN_IN_CHAOS_V1_BONESCALLER:
       Disabled: false
       AllowDespawn: true
       DisabledWorlds: []
       Formulas:
-        Health: 80 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 8 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Grimoireofgaia Mermaid
-        '40':
-          Name: Epic Grimoireofgaia Mermaid
-    ENEMYEXPANSION_WASP:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 16 + ({level} / 3) + ({level} / 5) + rand(5)
+        Health: 25 + ({level} / 3) + ({level} / 5) + rand(5)
         Damage: 3 + rand(3) + ({level} / 12)
         Experience: rand(5) + 1 + rand({level} / 5)
         CurrencyChance: 5.0 + ({level} / 5)
         CurrencyValue: 3.0 + ({level} / 3) + rand(3)
       Names:
         '1':
-          Name: Enemyexpansion Wasp
+          Name: Born In Chaos V1 Bonescaller
         '40':
-          Name: Epic Enemyexpansion Wasp
-    STRAY:
+          Name: Epic Born In Chaos V1 Bonescaller
+    BORN_IN_CHAOS_V1_PHANTOM_CREEPER:
       Disabled: false
       AllowDespawn: true
       DisabledWorlds: []
       Formulas:
         Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 2 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Stray
-        '40':
-          Name: Epic Stray
-    GRIMOIREOFGAIA_CECAELIA:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 40 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 4 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Grimoireofgaia Cecaelia
-        '40':
-          Name: Epic Grimoireofgaia Cecaelia
-    SPORE_SCAMPER:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 25 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 6 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Spore Scamper
-        '40':
-          Name: Epic Spore Scamper
-    ENEMYEXPANSION_EQUESTRIAN:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 32 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 5 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Enemyexpansion Equestrian
-        '40':
-          Name: Epic Enemyexpansion Equestrian
-    BORN_IN_CHAOS_V1_NIGHTMARE_STALKER:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 70 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 7 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Born In Chaos V1 Nightmare Stalker
-        '40':
-          Name: Epic Born In Chaos V1 Nightmare Stalker
-    SPORE_KNIGHT:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 25 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 7 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Spore Knight
-        '40':
-          Name: Epic Spore Knight
-    UNDEAD_REVAMP2_THEBIDYUPSIDE:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 12 + ({level} / 3) + ({level} / 5) + rand(5)
         Damage: 3 + rand(3) + ({level} / 12)
         Experience: rand(5) + 1 + rand({level} / 5)
         CurrencyChance: 5.0 + ({level} / 5)
         CurrencyValue: 3.0 + ({level} / 3) + rand(3)
       Names:
         '1':
-          Name: Undead Revamp2 Thebidyupside
+          Name: Born In Chaos V1 Phantom Creeper
         '40':
-          Name: Epic Undead Revamp2 Thebidyupside
-    SPORE_BRUTE:
+          Name: Epic Born In Chaos V1 Phantom Creeper
+    BORN_IN_CHAOS_V1_SPIRITOF_CHAOS:
       Disabled: false
       AllowDespawn: true
       DisabledWorlds: []
       Formulas:
-        Health: 70 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 7 + rand(3) + ({level} / 12)
+        Health: 15 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 3 + rand(3) + ({level} / 12)
         Experience: rand(5) + 1 + rand({level} / 5)
         CurrencyChance: 5.0 + ({level} / 5)
         CurrencyValue: 3.0 + ({level} / 3) + rand(3)
       Names:
         '1':
-          Name: Spore Brute
+          Name: Born In Chaos V1 Spiritof Chaos
         '40':
-          Name: Epic Spore Brute
-    SPORE_BRAIOMIL:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 25 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 8 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Spore Braiomil
-        '40':
-          Name: Epic Spore Braiomil
-    BORN_IN_CHAOS_V1_LIFESTEALER:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 100 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 7 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Born In Chaos V1 Lifestealer
-        '40':
-          Name: Epic Born In Chaos V1 Lifestealer
-    BORN_IN_CHAOS_V1_SUPREME_BONESCALLER_STAGE_2:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 60 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 5 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Born In Chaos V1 Supreme Bonescaller Stage 2
-        '40':
-          Name: Epic Born In Chaos V1 Supreme Bonescaller Stage 2
-    ENEMYEXPANSION_LADYBUG:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 28 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 6 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Enemyexpansion Ladybug
-        '40':
-          Name: Epic Enemyexpansion Ladybug
-    BORN_IN_CHAOS_V1_MISSIONER:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 150 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 9 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Born In Chaos V1 Missioner
-        '40':
-          Name: Epic Born In Chaos V1 Missioner
-    UNDEAD_REVAMP2_THEHEAVY:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 120 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 0 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Undead Revamp2 Theheavy
-        '40':
-          Name: Epic Undead Revamp2 Theheavy
-    UNDEAD_REVAMP2_THEGLITER:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 30 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 4 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Undead Revamp2 Thegliter
-        '40':
-          Name: Epic Undead Revamp2 Thegliter
-    SPORE_SLASHER:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 35 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 10 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Spore Slasher
-        '40':
-          Name: Epic Spore Slasher
-    LUMINOUSWORLD_MINER_SKELETON:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 25 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 4 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Luminousworld Miner Skeleton
-        '40':
-          Name: Epic Luminousworld Miner Skeleton
+          Name: Epic Born In Chaos V1 Spiritof Chaos
     UNDEAD_REVAMP2_THEPREGNANT:
       Disabled: false
       AllowDespawn: true
@@ -3015,21 +2160,51 @@ Entity:
           Name: Undead Revamp2 Thepregnant
         '40':
           Name: Epic Undead Revamp2 Thepregnant
-    ALEXSMOBS_ROCKY_ROLLER:
+    GRIMOIREOFGAIA_BONE_KNIGHT:
       Disabled: false
       AllowDespawn: true
       DisabledWorlds: []
       Formulas:
-        Health: 10 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 2 + rand(3) + ({level} / 12)
+        Health: 80 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 8 + rand(3) + ({level} / 12)
         Experience: rand(5) + 1 + rand({level} / 5)
         CurrencyChance: 5.0 + ({level} / 5)
         CurrencyValue: 3.0 + ({level} / 3) + rand(3)
       Names:
         '1':
-          Name: Alexsmobs Rocky Roller
+          Name: Grimoireofgaia Bone Knight
         '40':
-          Name: Epic Alexsmobs Rocky Roller
+          Name: Epic Grimoireofgaia Bone Knight
+    UNDEAD_REVAMP2_THESWARMER:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 45 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 3 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Undead Revamp2 Theswarmer
+        '40':
+          Name: Epic Undead Revamp2 Theswarmer
+    UNDEAD_REVAMP2_THEBIDY:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 10 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 3 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Undead Revamp2 Thebidy
+        '40':
+          Name: Epic Undead Revamp2 Thebidy
     GRIMOIREOFGAIA_BEE:
       Disabled: false
       AllowDespawn: true
@@ -3045,6 +2220,921 @@ Entity:
           Name: Grimoireofgaia Bee
         '40':
           Name: Epic Grimoireofgaia Bee
+    SPORE_INF_DROWNED:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 16 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 5 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Spore Inf Drowned
+        '40':
+          Name: Epic Spore Inf Drowned
+    UNDEAD_REVAMP2_INVISIIMMORTAL:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 100 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 3 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Undead Revamp2 Invisiimmortal
+        '40':
+          Name: Epic Undead Revamp2 Invisiimmortal
+    UNDEAD_REVAMP2_BOMBER:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 35 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 3 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Undead Revamp2 Bomber
+        '40':
+          Name: Epic Undead Revamp2 Bomber
+    GRAVEYARD_SKELETON_CREEPER:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 2 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Graveyard Skeleton Creeper
+        '40':
+          Name: Epic Graveyard Skeleton Creeper
+    GRIMOIREOFGAIA_ARACHNE:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 40 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 4 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Grimoireofgaia Arachne
+        '40':
+          Name: Epic Grimoireofgaia Arachne
+    UNDEAD_REVAMP2_THEORDURE:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 25 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 0 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Undead Revamp2 Theordure
+        '40':
+          Name: Epic Undead Revamp2 Theordure
+    ENDERMAN:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 40 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 7 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Enderman
+        '40':
+          Name: Epic Enderman
+    BORN_IN_CHAOS_V1_FALLEN_CHAOS_KNIGHT:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 40 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 5 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Born In Chaos V1 Fallen Chaos Knight
+        '40':
+          Name: Epic Born In Chaos V1 Fallen Chaos Knight
+    BORN_IN_CHAOS_V1_ZOMBIE_CLOWN:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 35 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 3 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Born In Chaos V1 Zombie Clown
+        '40':
+          Name: Epic Born In Chaos V1 Zombie Clown
+    UNDEAD_REVAMP2_THESOMNOLENCE:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 12 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 3 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Undead Revamp2 Thesomnolence
+        '40':
+          Name: Epic Undead Revamp2 Thesomnolence
+    BORN_IN_CHAOS_V1_DOOR_KNIGHT:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 30 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 6 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Born In Chaos V1 Door Knight
+        '40':
+          Name: Epic Born In Chaos V1 Door Knight
+    BORN_IN_CHAOS_V1_BLOODY_GADFLY:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 3 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Born In Chaos V1 Bloody Gadfly
+        '40':
+          Name: Epic Born In Chaos V1 Bloody Gadfly
+    BORN_IN_CHAOS_V1_ZOMBIE_LUMBERJACK:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 25 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 9 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Born In Chaos V1 Zombie Lumberjack
+        '40':
+          Name: Epic Born In Chaos V1 Zombie Lumberjack
+    ENEMYEXPANSION_TROLL:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 50 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 10 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Enemyexpansion Troll
+        '40':
+          Name: Epic Enemyexpansion Troll
+    UNDEAD_REVAMP2_THESKEEPER:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 3 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Undead Revamp2 Theskeeper
+        '40':
+          Name: Epic Undead Revamp2 Theskeeper
+    ENEMYEXPANSION_INTRUDER:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 40 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 0 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Enemyexpansion Intruder
+        '40':
+          Name: Epic Enemyexpansion Intruder
+    BORN_IN_CHAOS_V1_SIAMESE_SKELETONS:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 3 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Born In Chaos V1 Siamese Skeletons
+        '40':
+          Name: Epic Born In Chaos V1 Siamese Skeletons
+    SAMURAI_DYNASTY_KITSUNE:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 100 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 8 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Samurai Dynasty Kitsune
+        '40':
+          Name: Epic Samurai Dynasty Kitsune
+    BORN_IN_CHAOS_V1_SKELETON_THRASHER:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 50 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 8 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Born In Chaos V1 Skeleton Thrasher
+        '40':
+          Name: Epic Born In Chaos V1 Skeleton Thrasher
+    GRIMOIREOFGAIA_YUKI_ONNA:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 80 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 8 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Grimoireofgaia Yuki Onna
+        '40':
+          Name: Epic Grimoireofgaia Yuki Onna
+    SPORE_INF_WITCH:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 25 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 4 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Spore Inf Witch
+        '40':
+          Name: Epic Spore Inf Witch
+    ENEMYEXPANSION_GOBLIN:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 5 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Enemyexpansion Goblin
+        '40':
+          Name: Epic Enemyexpansion Goblin
+    BORN_IN_CHAOS_V1_DARK_VORTEX:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 35 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 4 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Born In Chaos V1 Dark Vortex
+        '40':
+          Name: Epic Born In Chaos V1 Dark Vortex
+    SONS_OF_SINS_BETRAYED_GUZZLER:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 30 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 3 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Sons Of Sins Betrayed Guzzler
+        '40':
+          Name: Epic Sons Of Sins Betrayed Guzzler
+    UNDEAD_REVAMP2_NEOCRORINES:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 15 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 0 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Undead Revamp2 Neocrorines
+        '40':
+          Name: Epic Undead Revamp2 Neocrorines
+    BORN_IN_CHAOS_V1_SKELETON_DEMOMAN:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 25 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 3 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Born In Chaos V1 Skeleton Demoman
+        '40':
+          Name: Epic Born In Chaos V1 Skeleton Demoman
+    BORN_IN_CHAOS_V1_BABY_SPIDER:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 10 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 2 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Born In Chaos V1 Baby Spider
+        '40':
+          Name: Epic Born In Chaos V1 Baby Spider
+    LUMINOUSWORLD_MINER_SKELETON:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 25 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 4 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Luminousworld Miner Skeleton
+        '40':
+          Name: Epic Luminousworld Miner Skeleton
+    GRIMOIREOFGAIA_HARPY:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 40 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 4 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Grimoireofgaia Harpy
+        '40':
+          Name: Epic Grimoireofgaia Harpy
+    SPORE_HOWLER:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 32 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 5 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Spore Howler
+        '40':
+          Name: Epic Spore Howler
+    GRIMOIREOFGAIA_DULLAHAN:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 40 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 4 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Grimoireofgaia Dullahan
+        '40':
+          Name: Epic Grimoireofgaia Dullahan
+    SPORE_INQUISITOR:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 60 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 20 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Spore Inquisitor
+        '40':
+          Name: Epic Spore Inquisitor
+    UNDEAD_REVAMP2_THE_MOONFLOWER:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 25 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 4 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Undead Revamp2 The Moonflower
+        '40':
+          Name: Epic Undead Revamp2 The Moonflower
+    ZOMBIE_VILLAGER:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 3 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Zombie Villager
+        '40':
+          Name: Epic Zombie Villager
+    SPORE_INF_HUSK:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 21 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 6 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Spore Inf Husk
+        '40':
+          Name: Epic Spore Inf Husk
+    ENEMYEXPANSION_BOTFLY:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 4 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 3 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Enemyexpansion Botfly
+        '40':
+          Name: Epic Enemyexpansion Botfly
+    SPORE_KNIGHT:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 25 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 7 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Spore Knight
+        '40':
+          Name: Epic Spore Knight
+    SPORE_SLASHER:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 35 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 10 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Spore Slasher
+        '40':
+          Name: Epic Spore Slasher
+    UNDEAD_REVAMP2_THEHORRORS:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 45 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 12 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Undead Revamp2 Thehorrors
+        '40':
+          Name: Epic Undead Revamp2 Thehorrors
+    LUMINOUSWORLD_DARK_OAK_ZOMBIE:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 25 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 3 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Luminousworld Dark Oak Zombie
+        '40':
+          Name: Epic Luminousworld Dark Oak Zombie
+    GRIMOIREOFGAIA_WIZARD_HARPY:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 40 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 4 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Grimoireofgaia Wizard Harpy
+        '40':
+          Name: Epic Grimoireofgaia Wizard Harpy
+    BORN_IN_CHAOS_V1_GLUTTON_FISH:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 90 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 12 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Born In Chaos V1 Glutton Fish
+        '40':
+          Name: Epic Born In Chaos V1 Glutton Fish
+    GRIMOIREOFGAIA_MERMAID:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 80 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 8 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Grimoireofgaia Mermaid
+        '40':
+          Name: Epic Grimoireofgaia Mermaid
+    UNDEAD_REVAMP2_THEROD:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 30 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 3 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Undead Revamp2 Therod
+        '40':
+          Name: Epic Undead Revamp2 Therod
+    ENEMYEXPANSION_SILVERQUEEN:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 30 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 8 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Enemyexpansion Silverqueen
+        '40':
+          Name: Epic Enemyexpansion Silverqueen
+    GRIMOIREOFGAIA_CECAELIA:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 40 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 4 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Grimoireofgaia Cecaelia
+        '40':
+          Name: Epic Grimoireofgaia Cecaelia
+    LUMINOUSWORLD_DARK_OAK_SKELETON:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 25 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 4 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Luminousworld Dark Oak Skeleton
+        '40':
+          Name: Epic Luminousworld Dark Oak Skeleton
+    GRIMOIREOFGAIA_WITCH:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 80 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 8 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Grimoireofgaia Witch
+        '40':
+          Name: Epic Grimoireofgaia Witch
+    ALEXSMOBS_STRADDLER:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 28 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 2 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Alexsmobs Straddler
+        '40':
+          Name: Epic Alexsmobs Straddler
+    GRAVEYARD_CORRUPTED_PILLAGER:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 24 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 3 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Graveyard Corrupted Pillager
+        '40':
+          Name: Epic Graveyard Corrupted Pillager
+    VINDICATOR:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 24 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 13 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Vindicator
+        '40':
+          Name: Epic Vindicator
+    GRIMOIREOFGAIA_BANSHEE:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 80 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 8 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Grimoireofgaia Banshee
+        '40':
+          Name: Epic Grimoireofgaia Banshee
+    BORN_IN_CHAOS_V1_SWARMER:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 40 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 4 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Born In Chaos V1 Swarmer
+        '40':
+          Name: Epic Born In Chaos V1 Swarmer
+    BORN_IN_CHAOS_V1_LIFESTEALER:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 100 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 7 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Born In Chaos V1 Lifestealer
+        '40':
+          Name: Epic Born In Chaos V1 Lifestealer
+    GRAVEYARD_NIGHTMARE:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 45 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 10 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Graveyard Nightmare
+        '40':
+          Name: Epic Graveyard Nightmare
+    PILLAGER:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 24 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 5 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Pillager
+        '40':
+          Name: Epic Pillager
+    BORN_IN_CHAOS_V1_BONE_IMP:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 3 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Born In Chaos V1 Bone Imp
+        '40':
+          Name: Epic Born In Chaos V1 Bone Imp
+    CAVE_SPIDER:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 12 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 2 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Cave Spider
+        '40':
+          Name: Epic Cave Spider
+    CATACLYSM_DEEPLING_BRUTE:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 60 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 5 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Cataclysm Deepling Brute
+        '40':
+          Name: Epic Cataclysm Deepling Brute
+    GRIMOIREOFGAIA_NINE_TAILS:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 80 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 8 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Grimoireofgaia Nine Tails
+        '40':
+          Name: Epic Grimoireofgaia Nine Tails
+    UNDEAD_REVAMP2_THESPECTRE:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 3 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Undead Revamp2 Thespectre
+        '40':
+          Name: Epic Undead Revamp2 Thespectre
     ALEXSMOBS_CENTIPEDE_HEAD:
       Disabled: false
       AllowDespawn: true
@@ -3075,21 +3165,156 @@ Entity:
           Name: Creeperoverhaul Dripstone Creeper
         '40':
           Name: Epic Creeperoverhaul Dripstone Creeper
-    SPORE_INQUISITOR:
+    CREEPEROVERHAUL_BEACH_CREEPER:
       Disabled: false
       AllowDespawn: true
       DisabledWorlds: []
       Formulas:
-        Health: 60 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 20 + rand(3) + ({level} / 12)
+        Health: 15 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 2 + rand(3) + ({level} / 12)
         Experience: rand(5) + 1 + rand({level} / 5)
         CurrencyChance: 5.0 + ({level} / 5)
         CurrencyValue: 3.0 + ({level} / 3) + rand(3)
       Names:
         '1':
-          Name: Spore Inquisitor
+          Name: Creeperoverhaul Beach Creeper
         '40':
-          Name: Epic Spore Inquisitor
+          Name: Epic Creeperoverhaul Beach Creeper
+    GRIMOIREOFGAIA_SHARKO:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 80 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 8 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Grimoireofgaia Sharko
+        '40':
+          Name: Epic Grimoireofgaia Sharko
+    ALEXSMOBS_SKELEWAG:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 3 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Alexsmobs Skelewag
+        '40':
+          Name: Epic Alexsmobs Skelewag
+    SPORE_INF_WANDERER:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 6 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Spore Inf Wanderer
+        '40':
+          Name: Epic Spore Inf Wanderer
+    WITCH:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 26 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 2 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Witch
+        '40':
+          Name: Epic Witch
+    SPORE_BRAIOMIL:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 25 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 8 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Spore Braiomil
+        '40':
+          Name: Epic Spore Braiomil
+    ENEMYEXPANSION_GOBLIN_FEAR:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 1 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 0 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Enemyexpansion Goblin Fear
+        '40':
+          Name: Epic Enemyexpansion Goblin Fear
+    GRIMOIREOFGAIA_MINOTAUR:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 160 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 12 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Grimoireofgaia Minotaur
+        '40':
+          Name: Epic Grimoireofgaia Minotaur
+    BORN_IN_CHAOS_V1_MISSIONER:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 150 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 9 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Born In Chaos V1 Missioner
+        '40':
+          Name: Epic Born In Chaos V1 Missioner
+    BORN_IN_CHAOS_V1_DIRE_HOUND_LEADER:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 100 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 10 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Born In Chaos V1 Dire Hound Leader
+        '40':
+          Name: Epic Born In Chaos V1 Dire Hound Leader
     BORN_IN_CHAOS_V1_SIAMESE_SKELETONSLEFT:
       Disabled: false
       AllowDespawn: true
@@ -3105,36 +3330,66 @@ Entity:
           Name: Born In Chaos V1 Siamese Skeletonsleft
         '40':
           Name: Epic Born In Chaos V1 Siamese Skeletonsleft
-    SAMURAI_DYNASTY_KITSUNE:
+    GRIMOIREOFGAIA_ONI:
       Disabled: false
       AllowDespawn: true
       DisabledWorlds: []
       Formulas:
-        Health: 100 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 8 + rand(3) + ({level} / 12)
+        Health: 40 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 4 + rand(3) + ({level} / 12)
         Experience: rand(5) + 1 + rand({level} / 5)
         CurrencyChance: 5.0 + ({level} / 5)
         CurrencyValue: 3.0 + ({level} / 3) + rand(3)
       Names:
         '1':
-          Name: Samurai Dynasty Kitsune
+          Name: Grimoireofgaia Oni
         '40':
-          Name: Epic Samurai Dynasty Kitsune
-    ENEMYEXPANSION_GOBLIN:
+          Name: Epic Grimoireofgaia Oni
+    UNDEAD_REVAMP2_THEWOLF:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 50 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 3 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Undead Revamp2 Thewolf
+        '40':
+          Name: Epic Undead Revamp2 Thewolf
+    GRIMOIREOFGAIA_TOAD:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 40 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 4 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Grimoireofgaia Toad
+        '40':
+          Name: Epic Grimoireofgaia Toad
+    BLAZE:
       Disabled: false
       AllowDespawn: true
       DisabledWorlds: []
       Formulas:
         Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 5 + rand(3) + ({level} / 12)
+        Damage: 6 + rand(3) + ({level} / 12)
         Experience: rand(5) + 1 + rand({level} / 5)
         CurrencyChance: 5.0 + ({level} / 5)
         CurrencyValue: 3.0 + ({level} / 3) + rand(3)
       Names:
         '1':
-          Name: Enemyexpansion Goblin
+          Name: Blaze
         '40':
-          Name: Epic Enemyexpansion Goblin
+          Name: Epic Blaze
     GRIMOIREOFGAIA_CENTAUR:
       Disabled: false
       AllowDespawn: true
@@ -3150,6 +3405,36 @@ Entity:
           Name: Grimoireofgaia Centaur
         '40':
           Name: Epic Grimoireofgaia Centaur
+    HUNTERS_RETURN_HUNTER:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 26 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 6 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Hunters Return Hunter
+        '40':
+          Name: Epic Hunters Return Hunter
+    SPORE_VOLATILE:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 60 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 16 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Spore Volatile
+        '40':
+          Name: Epic Spore Volatile
     SAMURAI_DYNASTY_JOROGUMO:
       Disabled: false
       AllowDespawn: true
@@ -3165,21 +3450,126 @@ Entity:
           Name: Samurai Dynasty Jorogumo
         '40':
           Name: Epic Samurai Dynasty Jorogumo
-    UNDEAD_REVAMP2_NEOCRORINES:
+    GRIMOIREOFGAIA_MINOTAURUS:
       Disabled: false
       AllowDespawn: true
       DisabledWorlds: []
       Formulas:
-        Health: 15 + ({level} / 3) + ({level} / 5) + rand(5)
+        Health: 80 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 8 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Grimoireofgaia Minotaurus
+        '40':
+          Name: Epic Grimoireofgaia Minotaurus
+    CATACLYSM_DEEPLING:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 26 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 4 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Cataclysm Deepling
+        '40':
+          Name: Epic Cataclysm Deepling
+    GRIMOIREOFGAIA_SUCCUBUS:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 40 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 4 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Grimoireofgaia Succubus
+        '40':
+          Name: Epic Grimoireofgaia Succubus
+    UNDEAD_REVAMP2_THEHORRORSDECOYS:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 50 + ({level} / 3) + ({level} / 5) + rand(5)
         Damage: 0 + rand(3) + ({level} / 12)
         Experience: rand(5) + 1 + rand({level} / 5)
         CurrencyChance: 5.0 + ({level} / 5)
         CurrencyValue: 3.0 + ({level} / 3) + rand(3)
       Names:
         '1':
-          Name: Undead Revamp2 Neocrorines
+          Name: Undead Revamp2 Thehorrorsdecoys
         '40':
-          Name: Epic Undead Revamp2 Neocrorines
+          Name: Epic Undead Revamp2 Thehorrorsdecoys
+    SPORE_JAGD:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 35 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 7 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Spore Jagd
+        '40':
+          Name: Epic Spore Jagd
+    BORN_IN_CHAOS_V1_SUPREME_BONESCALLER:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 65 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 5 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Born In Chaos V1 Supreme Bonescaller
+        '40':
+          Name: Epic Born In Chaos V1 Supreme Bonescaller
+    GRAVEYARD_CORRUPTED_VINDICATOR:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 24 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 5 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Graveyard Corrupted Vindicator
+        '40':
+          Name: Epic Graveyard Corrupted Vindicator
+    BORN_IN_CHAOS_V1_PHANTOM_CREEPER_COPY:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 3 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Born In Chaos V1 Phantom Creeper Copy
+        '40':
+          Name: Epic Born In Chaos V1 Phantom Creeper Copy
     SAMURAI_DYNASTY_ENENRA:
       Disabled: false
       AllowDespawn: true
@@ -3195,6 +3585,21 @@ Entity:
           Name: Samurai Dynasty Enenra
         '40':
           Name: Epic Samurai Dynasty Enenra
+    PIGLIN_BRUTE:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 50 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 13 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Piglin Brute
+        '40':
+          Name: Epic Piglin Brute
     GRIMOIREOFGAIA_WERECAT:
       Disabled: false
       AllowDespawn: true
@@ -3210,21 +3615,6 @@ Entity:
           Name: Grimoireofgaia Werecat
         '40':
           Name: Epic Grimoireofgaia Werecat
-    ALEXSMOBS_MURMUR_HEAD:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 30 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 3 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Alexsmobs Murmur Head
-        '40':
-          Name: Epic Alexsmobs Murmur Head
     BORN_IN_CHAOS_V1_SIAMESE_SKELETONSRIGHT:
       Disabled: false
       AllowDespawn: true
@@ -3240,22 +3630,22 @@ Entity:
           Name: Born In Chaos V1 Siamese Skeletonsright
         '40':
           Name: Epic Born In Chaos V1 Siamese Skeletonsright
-    LUMINOUSWORLD_MINER_ZOMBIE:
+    BORN_IN_CHAOS_V1_BABY_SKELETON_MINION:
       Disabled: false
       AllowDespawn: true
       DisabledWorlds: []
       Formulas:
-        Health: 67 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 3 + rand(3) + ({level} / 12)
+        Health: 10 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 2 + rand(3) + ({level} / 12)
         Experience: rand(5) + 1 + rand({level} / 5)
         CurrencyChance: 5.0 + ({level} / 5)
         CurrencyValue: 3.0 + ({level} / 3) + rand(3)
       Names:
         '1':
-          Name: Luminousworld Miner Zombie
+          Name: Born In Chaos V1 Baby Skeleton Minion
         '40':
-          Name: Epic Luminousworld Miner Zombie
-    GRIMOIREOFGAIA_DULLAHAN:
+          Name: Epic Born In Chaos V1 Baby Skeleton Minion
+    GRIMOIREOFGAIA_GRYPHON:
       Disabled: false
       AllowDespawn: true
       DisabledWorlds: []
@@ -3267,24 +3657,54 @@ Entity:
         CurrencyValue: 3.0 + ({level} / 3) + rand(3)
       Names:
         '1':
-          Name: Grimoireofgaia Dullahan
+          Name: Grimoireofgaia Gryphon
         '40':
-          Name: Epic Grimoireofgaia Dullahan
-    ALEXSMOBS_MURMUR:
+          Name: Epic Grimoireofgaia Gryphon
+    UNDEAD_REVAMP2_THESPITTER:
       Disabled: false
       AllowDespawn: true
       DisabledWorlds: []
       Formulas:
-        Health: 30 + ({level} / 3) + ({level} / 5) + rand(5)
+        Health: 8 + ({level} / 3) + ({level} / 5) + rand(5)
         Damage: 3 + rand(3) + ({level} / 12)
         Experience: rand(5) + 1 + rand({level} / 5)
         CurrencyChance: 5.0 + ({level} / 5)
         CurrencyValue: 3.0 + ({level} / 3) + rand(3)
       Names:
         '1':
-          Name: Alexsmobs Murmur
+          Name: Undead Revamp2 Thespitter
         '40':
-          Name: Epic Alexsmobs Murmur
+          Name: Epic Undead Revamp2 Thespitter
+    UNDEAD_REVAMP2_THEHEAVY:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 120 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 0 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Undead Revamp2 Theheavy
+        '40':
+          Name: Epic Undead Revamp2 Theheavy
+    ENEMYEXPANSION_WASP:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 16 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 3 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Enemyexpansion Wasp
+        '40':
+          Name: Epic Enemyexpansion Wasp
     BORN_IN_CHAOS_V1_MOTHER_SPIDER:
       Disabled: false
       AllowDespawn: true
@@ -3300,21 +3720,156 @@ Entity:
           Name: Born In Chaos V1 Mother Spider
         '40':
           Name: Epic Born In Chaos V1 Mother Spider
-    BORN_IN_CHAOS_V1_ZOMBIE_LUMBERJACK:
+    STRAY:
       Disabled: false
       AllowDespawn: true
       DisabledWorlds: []
       Formulas:
-        Health: 25 + ({level} / 3) + ({level} / 5) + rand(5)
+        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 2 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Stray
+        '40':
+          Name: Epic Stray
+    GRAVEYARD_ACOLYTE:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 24 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 5 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Graveyard Acolyte
+        '40':
+          Name: Epic Graveyard Acolyte
+    SPORE_STALKER:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 55 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 16 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Spore Stalker
+        '40':
+          Name: Epic Spore Stalker
+    LUMINOUSWORLD_STALKER:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
         Damage: 9 + rand(3) + ({level} / 12)
         Experience: rand(5) + 1 + rand({level} / 5)
         CurrencyChance: 5.0 + ({level} / 5)
         CurrencyValue: 3.0 + ({level} / 3) + rand(3)
       Names:
         '1':
-          Name: Born In Chaos V1 Zombie Lumberjack
+          Name: Luminousworld Stalker
         '40':
-          Name: Epic Born In Chaos V1 Zombie Lumberjack
+          Name: Epic Luminousworld Stalker
+    GRIMOIREOFGAIA_MATANGO:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 40 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 4 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Grimoireofgaia Matango
+        '40':
+          Name: Epic Grimoireofgaia Matango
+    SPORE_SCAMPER:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 25 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 6 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Spore Scamper
+        '40':
+          Name: Epic Spore Scamper
+    WITHER_SKELETON:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 4 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Wither Skeleton
+        '40':
+          Name: Epic Wither Skeleton
+    ENEMYEXPANSION_EQUESTRIAN:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 32 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 5 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Enemyexpansion Equestrian
+        '40':
+          Name: Epic Enemyexpansion Equestrian
+    LUMINOUSWORLD_BONE_STALKER:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 120 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 9 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Luminousworld Bone Stalker
+        '40':
+          Name: Epic Luminousworld Bone Stalker
+    UNDEAD_REVAMP2_THEBEARTAMER:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 50 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 3 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Undead Revamp2 Thebeartamer
+        '40':
+          Name: Epic Undead Revamp2 Thebeartamer
     SPORE_SPITTER:
       Disabled: false
       AllowDespawn: true
@@ -3336,7 +3891,7 @@ Entity:
       DisabledWorlds: []
       Formulas:
         Health: 45 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 5 + rand(3) + ({level} / 12)
+        Damage: 1 + rand(3) + ({level} / 12)
         Experience: rand(5) + 1 + rand({level} / 5)
         CurrencyChance: 5.0 + ({level} / 5)
         CurrencyValue: 3.0 + ({level} / 3) + rand(3)
@@ -3345,6 +3900,66 @@ Entity:
           Name: Spore Griefer
         '40':
           Name: Epic Spore Griefer
+    GRAVEYARD_GHOUL:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 4 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Graveyard Ghoul
+        '40':
+          Name: Epic Graveyard Ghoul
+    UNDEAD_REVAMP2_THEGLITER:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 30 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 4 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Undead Revamp2 Thegliter
+        '40':
+          Name: Epic Undead Revamp2 Thegliter
+    ZOMBIFIED_PIGLIN:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 5 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Zombified Piglin
+        '40':
+          Name: Epic Zombified Piglin
+    CREEPEROVERHAUL_DARK_OAK_CREEPER:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 2 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Creeperoverhaul Dark Oak Creeper
+        '40':
+          Name: Epic Creeperoverhaul Dark Oak Creeper
     GRIMOIREOFGAIA_SPRIGGAN:
       Disabled: false
       AllowDespawn: true
@@ -3360,6 +3975,21 @@ Entity:
           Name: Grimoireofgaia Spriggan
         '40':
           Name: Epic Grimoireofgaia Spriggan
+    UNDEAD_REVAMP2_AXESTROM:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 1 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 2 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Undead Revamp2 Axestrom
+        '40':
+          Name: Epic Undead Revamp2 Axestrom
     BORN_IN_CHAOS_V1_ZOMBIE_FISHERMAN:
       Disabled: false
       AllowDespawn: true
@@ -3375,6 +4005,51 @@ Entity:
           Name: Born In Chaos V1 Zombie Fisherman
         '40':
           Name: Epic Born In Chaos V1 Zombie Fisherman
+    UNDEAD_REVAMP2_THEBIDYUPSIDE:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 12 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 3 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Undead Revamp2 Thebidyupside
+        '40':
+          Name: Epic Undead Revamp2 Thebidyupside
+    PIGLIN:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 16 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 8 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Piglin
+        '40':
+          Name: Epic Piglin
+    CREEPEROVERHAUL_SPRUCE_CREEPER:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 2 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Creeperoverhaul Spruce Creeper
+        '40':
+          Name: Epic Creeperoverhaul Spruce Creeper
     BORN_IN_CHAOS_V1_BARREL_ZOMBIE:
       Disabled: false
       AllowDespawn: true
@@ -3390,108 +4065,48 @@ Entity:
           Name: Born In Chaos V1 Barrel Zombie
         '40':
           Name: Epic Born In Chaos V1 Barrel Zombie
-    UNDEAD_REVAMP2_CRACKLEBALL:
+    SPORE_BRUTE:
       Disabled: false
       AllowDespawn: true
       DisabledWorlds: []
       Formulas:
-        Health: 1 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 2 + rand(3) + ({level} / 12)
+        Health: 70 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 7 + rand(3) + ({level} / 12)
         Experience: rand(5) + 1 + rand({level} / 5)
         CurrencyChance: 5.0 + ({level} / 5)
         CurrencyValue: 3.0 + ({level} / 3) + rand(3)
       Names:
         '1':
-          Name: Undead Revamp2 Crackleball
+          Name: Spore Brute
         '40':
-          Name: Epic Undead Revamp2 Crackleball
-    GRIMOIREOFGAIA_BANSHEE:
+          Name: Epic Spore Brute
+    SPORE_INF_PLAYER:
       Disabled: false
       AllowDespawn: true
       DisabledWorlds: []
       Formulas:
-        Health: 80 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 8 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Grimoireofgaia Banshee
-        '40':
-          Name: Epic Grimoireofgaia Banshee
-    PILLAGER:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 24 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 5 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Pillager
-        '40':
-          Name: Epic Pillager
-    GRIMOIREOFGAIA_GRYPHON:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 40 + ({level} / 3) + ({level} / 5) + rand(5)
+        Health: 21 + ({level} / 3) + ({level} / 5) + rand(5)
         Damage: 4 + rand(3) + ({level} / 12)
         Experience: rand(5) + 1 + rand({level} / 5)
         CurrencyChance: 5.0 + ({level} / 5)
         CurrencyValue: 3.0 + ({level} / 3) + rand(3)
       Names:
         '1':
-          Name: Grimoireofgaia Gryphon
+          Name: Spore Inf Player
         '40':
-          Name: Epic Grimoireofgaia Gryphon
-    GRIMOIREOFGAIA_VALKYRIE:
+          Name: Epic Spore Inf Player
+    UNDEAD_REVAMP2_SLAVEMAN:
       Disabled: false
       AllowDespawn: true
       DisabledWorlds: []
       Formulas:
-        Health: 160 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 12 + rand(3) + ({level} / 12)
+        Health: 20 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 3 + rand(3) + ({level} / 12)
         Experience: rand(5) + 1 + rand({level} / 5)
         CurrencyChance: 5.0 + ({level} / 5)
         CurrencyValue: 3.0 + ({level} / 3) + rand(3)
       Names:
         '1':
-          Name: Grimoireofgaia Valkyrie
+          Name: Undead Revamp2 Slaveman
         '40':
-          Name: Epic Grimoireofgaia Valkyrie
-    GUARDIAN:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 30 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 6 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Guardian
-        '40':
-          Name: Epic Guardian
-    GRIMOIREOFGAIA_DWARF:
-      Disabled: false
-      AllowDespawn: true
-      DisabledWorlds: []
-      Formulas:
-        Health: 80 + ({level} / 3) + ({level} / 5) + rand(5)
-        Damage: 8 + rand(3) + ({level} / 12)
-        Experience: rand(5) + 1 + rand({level} / 5)
-        CurrencyChance: 5.0 + ({level} / 5)
-        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
-      Names:
-        '1':
-          Name: Grimoireofgaia Dwarf
-        '40':
-          Name: Epic Grimoireofgaia Dwarf
+          Name: Epic Undead Revamp2 Slaveman

@@ -121,6 +121,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:frozen_river": "2024-12-02 02:55:42 -0500",
       "minecraft:birch_forest": "2024-10-26 19:42:04 -0500",
       "minecraft:beach": "2024-10-26 19:41:07 -0500",
       "minecraft:river": "2024-10-26 19:41:09 -0500",
@@ -2021,6 +2022,18 @@
   "minecraft:recipes/transportation/carrot_on_a_stick": {
     "criteria": {
       "has_carrot": "2024-11-27 19:17:33 -0500"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/netherite_sword_repairing": {
+    "criteria": {
+      "has_netherite_sword": "2024-12-02 02:55:30 -0500"
+    },
+    "done": true
+  },
+  "infinite_abyss:logged_in": {
+    "criteria": {
+      "logged_in": "2024-12-02 02:54:30 -0500"
     },
     "done": true
   },
