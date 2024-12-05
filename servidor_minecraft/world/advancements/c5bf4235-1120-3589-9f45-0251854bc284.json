@@ -16750,15 +16750,9 @@
     },
     "done": true
   },
-  "regions_unexplored:recipes/misc/oak_sapling_from_oak_shrub": {
+  "alchemistry:recipes/dissolver/emerald": {
     "criteria": {
-      "has_oak_shrub": "2024-12-04 07:44:05 +0000"
-    },
-    "done": true
-  },
-  "regions_unexplored:recipes/decorations/willow_shrub": {
-    "criteria": {
-      "has_willow_sapling": "2024-12-04 07:40:52 +0000"
+      "has_the_recipe": "2024-12-04 06:38:17 +0000"
     },
     "done": true
   },
@@ -16768,15 +16762,45 @@
     },
     "done": true
   },
-  "alchemistry:recipes/dissolver/emerald": {
-    "criteria": {
-      "has_the_recipe": "2024-12-04 06:38:17 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/orange_dye_from_orange_tulip": {
     "criteria": {
       "has_orange_tulip": "2024-12-04 07:02:25 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/decorations/willow_shrub": {
+    "criteria": {
+      "has_willow_sapling": "2024-12-04 07:40:52 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/misc/oak_sapling_from_oak_shrub": {
+    "criteria": {
+      "has_oak_shrub": "2024-12-04 07:44:05 +0000"
+    },
+    "done": true
+  },
+  "legendary_monsters:legendary_monsters_root": {
+    "criteria": {
+      "custom_test_name": "2024-12-05 07:22:13 +0000"
+    },
+    "done": true
+  },
+  "legendary_monsters:end_root": {
+    "criteria": {
+      "custom_test_name": "2024-12-05 07:22:13 +0000"
+    },
+    "done": true
+  },
+  "legendary_monsters:nether_root": {
+    "criteria": {
+      "custom_test_name": "2024-12-05 07:22:13 +0000"
+    },
+    "done": true
+  },
+  "terramity:terramity_parent_advancement": {
+    "criteria": {
+      "terramity_parent_advancement_0": "2024-12-05 07:22:13 +0000"
     },
     "done": true
   },
