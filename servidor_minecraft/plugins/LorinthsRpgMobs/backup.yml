@@ -1237,6 +1237,36 @@ Entity:
           Name: Terramity Green Fairy
         '40':
           Name: Epic Terramity Green Fairy
+    TERRAMITY_PINK_FAIRY:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 1 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 1 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Terramity Pink Fairy
+        '40':
+          Name: Epic Terramity Pink Fairy
+    IRON_GOLEM:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 100 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 15 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Iron Golem
+        '40':
+          Name: Epic Iron Golem
   Misc:
     Disabled: true
     BAT:
