@@ -2723,3 +2723,85 @@ Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
 [06Dec2024 23:44:29.720] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doom_Slayer246 has made the advancement [Terramity]
 [06Dec2024 23:44:37.721] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager  4 / 20'/11588, l='ServerLevel[world]', x=-14.50, y=108.50, z=12.53] died, message: 'Villager  4 / 20 was slain by [Lvl.1] Zombie Villager - 22 / 22 100%'
 [06Dec2024 23:44:37.722] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Villager['Villager  4 / 20'/11588, l='ServerLevel[world]', x=-14.50, y=108.50, z=12.53] died: Villager  4 / 20 was slain by [Lvl.1] Zombie Villager - 22 / 22 100%
+[06Dec2024 23:44:42.567] [Async Chat Thread - #0/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doom_Slayer246> OE
+[06Dec2024 23:44:46.894] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doom_Slayer246> ERES UNA MIER
+[06Dec2024 23:44:54.331] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Alexten22 issued server command: /gamemode survival
+[06Dec2024 23:44:54.331] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Alexten22: Set own game mode to Survival Mode]
+[06Dec2024 23:45:01.587] [Async Chat Thread - #0/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doom_Slayer246> oe me salieron 3 rallitas verdes
+[06Dec2024 23:45:10.843] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity TheMoonflowerEntity['[Lvl.1] Undead Revamp2 The Moonflower - 28 / 28 100%  8 / 28'/11844, l='ServerLevel[world]', x=40.24, y=67.94, z=-22.82] died: [Lvl.1] Undead Revamp2 The Moonflower - 28 / 28 100%  8 / 28 was slain by Doom_Slayer246
+[06Dec2024 23:45:17.325] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity SuckerEntity['[Lvl.1] Undead Revamp2 Sucker - 18 / 18 100% - 12 / 18 66%'/11772, l='ServerLevel[world]', x=43.74, y=68.61, z=-21.58] died: death.attack.gauntletDmg
+[06Dec2024 23:45:23.271] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity SiameseSkeletonsrightEntity['[Lvl.2] Born In Chaos V1 Siamese Skeletonsright - 11 / 11 100%  1 / 11'/11933, l='ServerLevel[world]', x=68.50, y=68.00, z=-35.50] died: [Lvl.2] Born In Chaos V1 Siamese Skeletonsright - 11 / 11 100%  1 / 11 burned to death
+[06Dec2024 23:45:23.671] [Async Chat Thread - #0/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Alexten22> por que oe xd
+[06Dec2024 23:45:23.922] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['[Lvl.1] Weak Zombie - 24 / 24 100%  10 / 24'/11626, l='ServerLevel[world]', x=42.51, y=67.35, z=-23.34] died: death.attack.gauntletDmg
+[06Dec2024 23:45:27.269] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity SiameseSkeletonsleftEntity['[Lvl.2] Born In Chaos V1 Siamese Skeletonsleft - 15 / 15 100%  1 / 15'/11934, l='ServerLevel[world]', x=72.29, y=68.00, z=-38.28] died: [Lvl.2] Born In Chaos V1 Siamese Skeletonsleft - 15 / 15 100%  1 / 15 burned to death
+[06Dec2024 23:45:36.115] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doom_Slayer246 ||||||||||> si sabes q ahora hay una abilidaad para hacer doge
+[06Dec2024 23:45:41.304] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doom_Slayer246 ||||||||||> oseea un mini dash
+[06Dec2024 23:45:44.733] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['[Lvl.1] Weak Zombie - 23 / 23 100%  1 / 23'/11952, l='ServerLevel[world]', x=46.52, y=67.00, z=-30.52] died: [Lvl.1] Weak Zombie - 23 / 23 100%  1 / 23 burned to death
+[06Dec2024 23:45:47.234] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['[Lvl.1] Weak Zombie - 24 / 24 100%  1 / 24'/11625, l='ServerLevel[world]', x=31.50, y=68.00, z=-10.71] died: [Lvl.1] Weak Zombie - 24 / 24 100%  1 / 24 burned to death
+[06Dec2024 23:45:56.251] [Worker-Main-66/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'reach-entity-attributes:reach'
+[06Dec2024 23:45:56.251] [Worker-Main-66/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'reach-entity-attributes:reach'
+[06Dec2024 23:45:56.251] [Worker-Main-66/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'reach-entity-attributes:reach'
+[06Dec2024 23:45:56.252] [Worker-Main-66/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'reach-entity-attributes:reach'
+[06Dec2024 23:45:56.282] [Worker-Main-65/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'reach-entity-attributes:reach'
+[06Dec2024 23:45:59.172] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Alexten22> ni idea ando ocupado con mis aldeanos xd
+[06Dec2024 23:46:08.682] [Async Chat Thread - #0/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doom_Slayer246 ||||||||||> dale a la r
+[06Dec2024 23:46:13.718] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['[Lvl.2] Weak Zombie - 25 / 25 100%  1 / 25'/12036, l='ServerLevel[world]', x=11.75, y=63.00, z=-63.75] died: [Lvl.2] Weak Zombie - 25 / 25 100%  1 / 25 burned to death
+[06Dec2024 23:46:17.867] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['[Lvl.1] Weak Zombie - 21 / 21 100%  1 / 21'/12074, l='ServerLevel[world]', x=15.08, y=63.00, z=-63.58] died: [Lvl.1] Weak Zombie - 21 / 21 100%  1 / 21 burned to death
+[06Dec2024 23:46:19.358] [Async Chat Thread - #0/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Alexten22> a
+[06Dec2024 23:46:23.822] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['[Lvl.1] Weak Zombie - 24 / 24 100%  1 / 24'/12075, l='ServerLevel[world]', x=-3.22, y=63.00, z=-71.50] died: [Lvl.1] Weak Zombie - 24 / 24 100%  1 / 24 burned to death
+[06Dec2024 23:46:28.234] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Alexten22> x
+[06Dec2024 23:46:34.190] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Doom_Slayer246 moved wrongly!
+[06Dec2024 23:46:49.409] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doom_Slayer246> a eso son la rallitas
+[06Dec2024 23:46:54.574] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doom_Slayer246> son los dashes q tienes
+[06Dec2024 23:46:55.968] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doom_Slayer246> son 3
+[06Dec2024 23:47:13.319] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['[Lvl.1] Skeleton - 21 / 21 100%  7 / 21'/12379, l='ServerLevel[world]', x=23.02, y=-1.00, z=67.40] died: [Lvl.1] Skeleton - 21 / 21 100%  7 / 21 was slain by [Lvl.1] Born In Chaos V1 Dread Hound - 21 / 21 100%
+[06Dec2024 23:47:19.170] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['[Lvl.1] Skeleton - 22 / 22 100%  1 / 22'/12380, l='ServerLevel[world]', x=16.27, y=-2.00, z=59.60] died: [Lvl.1] Skeleton - 22 / 22 100%  1 / 22 was slain by [Lvl.1] Born In Chaos V1 Dread Hound - 21 / 21 100%
+[06Dec2024 23:47:20.972] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Alexten22> no lo se tal vez es una abilidad xd
+[06Dec2024 23:47:46.621] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doom_Slayer246> veni a discrod
+[06Dec2024 23:47:55.306] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Alexten22> espera ando con mi señora
+[06Dec2024 23:47:55.521] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GlowSquid['GlowSquid  2 / 10'/12424, l='ServerLevel[world]', x=-0.53, y=17.00, z=25.65] died: GlowSquid  2 / 10 drowned
+[06Dec2024 23:47:57.023] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Alexten22> xd
+[06Dec2024 23:48:01.893] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doom_Slayer246> xd el dodge essta un poquito roto con las elytras
+[06Dec2024 23:48:11.439] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Alexten22> no lo uses
+[06Dec2024 23:48:15.242] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Alexten22> esta prohibido
+[06Dec2024 23:48:20.909] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doom_Slayer246> chupaloi
+[06Dec2024 23:48:26.459] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doom_Slayer246> si solo es para trasladarme
+[06Dec2024 23:48:38.666] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Alexten22> no no lo uses
+[06Dec2024 23:48:43.774] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Alexten22> ya lo quitro
+[06Dec2024 23:48:53.544] [Async Chat Thread - #1/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doom_Slayer246> e igual es dificil de que salga consistente mente
+[06Dec2024 23:48:53.700] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Alexten22 issued server command: /tp Alexten22 4.5 111 19.5
+[06Dec2024 23:48:53.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Alexten22: Teleported Alexten22 to 4.500000, 111.000000, 19.500000]
+[06Dec2024 23:48:58.208] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doom_Slayer246> ssuk my dick
+[06Dec2024 23:49:02.251] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doom_Slayer246> ni se de que mod es
+[06Dec2024 23:49:03.471] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GnomeEntity['[Lvl.1] Terramity Cave Gnome - 12 / 12 100%'/12744, l='ServerLevel[world]', x=2.50, y=67.25, z=-33.50] died: [Lvl.1] Terramity Cave Gnome - 12 / 12 100% fell from a high place
+[06Dec2024 23:49:25.363] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Alexten22> y sembra anos=
+[06Dec2024 23:49:27.869] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['[Lvl.1] Zombie Villager - 22 / 22 100%  4 / 20'/12956, l='ServerLevel[world]', x=-13.30, y=108.00, z=12.46] died, message: '[Lvl.1] Zombie Villager - 22 / 22 100%  4 / 20 was slain by [Lvl.1] Zombie Villager - 23 / 23 100%'
+[06Dec2024 23:49:27.870] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Villager['[Lvl.1] Zombie Villager - 22 / 22 100%  4 / 20'/12956, l='ServerLevel[world]', x=-13.30, y=108.00, z=12.46] died: [Lvl.1] Zombie Villager - 22 / 22 100%  4 / 20 was slain by [Lvl.1] Zombie Villager - 23 / 23 100%
+[06Dec2024 23:49:38.631] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doom_Slayer246> sembrando anos
+[06Dec2024 23:49:40.075] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity DirewolfEntity['[Lvl.2] Enemyexpansion Direwolf - 19 / 19 100%  4 / 19'/12804, l='ServerLevel[world]', x=34.39, y=61.00, z=-80.82] died: [Lvl.2] Enemyexpansion Direwolf - 19 / 19 100%  4 / 19 was shot by [Lvl.2] Enemyexpansion Huntsman - 39 / 39 100%  12 / 39
+[06Dec2024 23:49:56.984] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doom_Slayer246> oe
+[06Dec2024 23:50:01.620] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Alexten22 issued server command: /gamemode creative
+[06Dec2024 23:50:01.620] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Alexten22: Set own game mode to Creative Mode]
+[06Dec2024 23:50:03.721] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity SprinterEntity['[Lvl.1] Enemyexpansion Sprinter - 11 / 11 100%  2 / 11'/12800, l='ServerLevel[world]', x=25.35, y=68.00, z=-10.29] died: death.attack.gauntletDmg
+[06Dec2024 23:50:03.908] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doom_Slayer246 ||||||||||> separece al doom eternal ahoraa
+[06Dec2024 23:50:05.874] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Axolotl['Axolotl  1 / 14'/11852, l='ServerLevel[world]', x=90.07, y=-30.00, z=23.63] died: Axolotl  1 / 14 has succumbed to the infection
+[06Dec2024 23:50:06.817] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['[Lvl.1] Weak Zombie - 23 / 23 100%  1 / 23'/12277, l='ServerLevel[world]', x=21.92, y=66.00, z=-11.86] died: [Lvl.1] Weak Zombie - 23 / 23 100%  1 / 23 was burnt to a crisp whilst fighting Doom_Slayer246 ||||||||||
+[06Dec2024 23:50:13.333] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Alexten22 issued server command: /gamemode survival
+[06Dec2024 23:50:13.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Alexten22: Set own game mode to Survival Mode]
+[06Dec2024 23:50:26.174] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Alexten22> por que?
+[06Dec2024 23:50:30.475] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doom_Slayer246> por el dach
+[06Dec2024 23:50:35.733] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doom_Slayer246> *dash
+[06Dec2024 23:50:40.677] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doom_Slayer246> lo puse en el shift
+[06Dec2024 23:50:49.121] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ThehunterEntity['[Lvl.1] Undead Revamp2 Thehunter - 16 / 16 100%  1 / 16'/13229, l='ServerLevel[world]', x=42.50, y=68.19, z=-1.35] died: [Lvl.1] Undead Revamp2 Thehunter - 16 / 16 100%  1 / 16 burned to death
+[06Dec2024 23:50:52.434] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Alexten22> no
+[06Dec2024 23:50:53.266] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ThehunterEntity['[Lvl.1] Undead Revamp2 Thehunter - 17 / 17 100%  1 / 17'/13227, l='ServerLevel[world]', x=44.50, y=77.12, z=-1.57] died: [Lvl.1] Undead Revamp2 Thehunter - 17 / 17 100%  1 / 17 burned to death
+[06Dec2024 23:50:57.118] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ThehunterEntity['[Lvl.1] Undead Revamp2 Thehunter - 19 / 19 100%  1 / 19'/13228, l='ServerLevel[world]', x=42.49, y=69.00, z=-11.05] died: [Lvl.1] Undead Revamp2 Thehunter - 19 / 19 100%  1 / 19 burned to death
+[06Dec2024 23:51:06.007] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doom_Slayer246> y esta chevere pq despues del dash se activa para correr
+[06Dec2024 23:51:09.058] [Async Chat Thread - #2/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doom_Slayer246> xd
+[06Dec2024 23:52:10.419] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GnomeEntity['[Lvl.1] Terramity Cave Gnome - 12 / 12 100%'/13920, l='ServerLevel[world]', x=5.50, y=71.00, z=17.50] died: [Lvl.1] Terramity Cave Gnome - 12 / 12 100% fell from a high place
+[06Dec2024 23:52:10.474] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GnomeEntity['[Lvl.1] Terramity Cave Gnome - 13 / 13 100%'/13921, l='ServerLevel[world]', x=9.50, y=70.00, z=12.50] died: [Lvl.1] Terramity Cave Gnome - 13 / 13 100% fell from a high place
+[06Dec2024 23:52:10.475] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity GnomeEntity['[Lvl.1] Terramity Cave Gnome - 12 / 12 100%'/13922, l='ServerLevel[world]', x=10.50, y=70.00, z=13.50] died: [Lvl.1] Terramity Cave Gnome - 12 / 12 100% fell from a high place
+[06Dec2024 23:53:17.121] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity DreadHoundEntity['[Lvl.1] Born In Chaos V1 Dread Hound - 17 / 17 100%  1 / 17'/14076, l='ServerLevel[world]', x=11.38, y=5.25, z=-31.59] died: [Lvl.1] Born In Chaos V1 Dread Hound - 17 / 17 100%  1 / 17 was shot by [Lvl.1] Skeleton - 22 / 22 100%  1 / 22
+[06Dec2024 23:53:19.428] [Async Chat Thread - #4/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doom_Slayer246> q verga
+[06Dec2024 23:53:35.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Doom_Slayer246 has made the advancement [Dark Forging]
+[06Dec2024 23:54:18.254] [Async Chat Thread - #4/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Doom_Slayer246> me voy a hacer un sniper

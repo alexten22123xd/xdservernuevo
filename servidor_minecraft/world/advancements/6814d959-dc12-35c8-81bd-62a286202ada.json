@@ -17524,9 +17524,9 @@
     },
     "done": true
   },
-  "alchemistry:recipes/dissolver/leather": {
+  "alchemistry:recipes/misc/reactor_casing": {
     "criteria": {
-      "has_the_recipe": "2024-12-04 07:26:53 +0000"
+      "has_item": "2024-12-04 07:07:45 +0000"
     },
     "done": true
   },
@@ -17536,9 +17536,9 @@
     },
     "done": true
   },
-  "alchemistry:recipes/misc/reactor_casing": {
+  "alchemistry:recipes/dissolver/leather": {
     "criteria": {
-      "has_item": "2024-12-04 07:07:45 +0000"
+      "has_the_recipe": "2024-12-04 07:26:53 +0000"
     },
     "done": true
   },
@@ -17554,15 +17554,39 @@
     },
     "done": true
   },
+  "expanded_combat:recipes/combat/rabbit_leather_quiver_conditional_shaped": {
+    "criteria": {
+      "has_item": "2024-12-04 07:26:53 +0000"
+    },
+    "done": true
+  },
   "create:recipes/misc/crafting/materials/zinc_ingot_from_decompacting": {
     "criteria": {
       "has_item": "2024-12-04 07:49:01 +0000"
     },
     "done": true
   },
-  "expanded_combat:recipes/combat/rabbit_leather_quiver_conditional_shaped": {
+  "legendary_monsters:legendary_monsters_root": {
     "criteria": {
-      "has_item": "2024-12-04 07:26:53 +0000"
+      "custom_test_name": "2024-12-06 23:44:29 +0000"
+    },
+    "done": true
+  },
+  "legendary_monsters:end_root": {
+    "criteria": {
+      "custom_test_name": "2024-12-06 23:44:29 +0000"
+    },
+    "done": true
+  },
+  "legendary_monsters:nether_root": {
+    "criteria": {
+      "custom_test_name": "2024-12-06 23:44:29 +0000"
+    },
+    "done": true
+  },
+  "terramity:terramity_parent_advancement": {
+    "criteria": {
+      "terramity_parent_advancement_0": "2024-12-06 23:44:29 +0000"
     },
     "done": true
   },
