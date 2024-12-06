@@ -2,10 +2,10 @@ uuid: c5bf4235-1120-3589-9f45-0251854bc284
 skills:
   auraskills/defense:
     level: 5
-    xp: 130.45763897895645
+    xp: 163.45763897895645
   auraskills/fighting:
     level: 3
-    xp: 172.3499999999995
+    xp: 257.0499999999994
   auraskills/farming:
     level: 0
     xp: 42.29999999999999
@@ -26,10 +26,10 @@ skills:
     xp: 0.0
   auraskills/agility:
     level: 7
-    xp: 26.300599999999847
+    xp: 95.75919999999985
   auraskills/alchemy:
     level: 3
-    xp: 17.0
+    xp: 72.0
   auraskills/enchanting:
     level: 0
     xp: 0.0
