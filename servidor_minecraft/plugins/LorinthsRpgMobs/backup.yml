@@ -1207,6 +1207,36 @@ Entity:
           Name: Spore Vigil
         '40':
           Name: Epic Spore Vigil
+    TERRAMITY_BLUE_FAIRY:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 1 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 1 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Terramity Blue Fairy
+        '40':
+          Name: Epic Terramity Blue Fairy
+    TERRAMITY_GREEN_FAIRY:
+      Disabled: false
+      AllowDespawn: false
+      DisabledWorlds: []
+      Formulas:
+        Health: 1 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 1 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Terramity Green Fairy
+        '40':
+          Name: Epic Terramity Green Fairy
   Misc:
     Disabled: true
     BAT:
@@ -4110,3 +4140,33 @@ Entity:
           Name: Undead Revamp2 Slaveman
         '40':
           Name: Epic Undead Revamp2 Slaveman
+    TERRAMITY_CAVE_GNOME:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 10 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 3 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Terramity Cave Gnome
+        '40':
+          Name: Epic Terramity Cave Gnome
+    LEGENDARY_MONSTERS_SPIKY_BUG:
+      Disabled: false
+      AllowDespawn: true
+      DisabledWorlds: []
+      Formulas:
+        Health: 15 + ({level} / 3) + ({level} / 5) + rand(5)
+        Damage: 3 + rand(3) + ({level} / 12)
+        Experience: rand(5) + 1 + rand({level} / 5)
+        CurrencyChance: 5.0 + ({level} / 5)
+        CurrencyValue: 3.0 + ({level} / 3) + rand(3)
+      Names:
+        '1':
+          Name: Legendary Monsters Spiky Bug
+        '40':
+          Name: Epic Legendary Monsters Spiky Bug

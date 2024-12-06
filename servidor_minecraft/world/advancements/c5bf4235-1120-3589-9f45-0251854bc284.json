@@ -16804,5 +16804,41 @@
     },
     "done": true
   },
+  "galosphere:recipes/decorations/chandelier": {
+    "criteria": {
+      "has_iron_nugget": "2024-12-06 01:52:48 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/slicing/red_dye_from_poppy": {
+    "criteria": {
+      "has_poppy": "2024-12-06 01:52:53 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_crimsite_wall": {
+    "criteria": {
+      "has_polished_cut_crimsite": "2024-12-06 02:00:54 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_crimsite_slab": {
+    "criteria": {
+      "has_polished_cut_crimsite": "2024-12-06 02:00:54 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_crimsite_stairs": {
+    "criteria": {
+      "has_polished_cut_crimsite": "2024-12-06 02:00:54 +0000"
+    },
+    "done": true
+  },
+  "galosphere:recipes/decorations/gilded_beads": {
+    "criteria": {
+      "has_gold_ingot": "2024-12-06 02:10:06 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
