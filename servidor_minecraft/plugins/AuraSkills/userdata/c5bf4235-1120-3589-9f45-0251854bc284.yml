@@ -25,15 +25,15 @@ skills:
     level: 0
     xp: 0.0
   auraskills/agility:
-    level: 6
-    xp: 3696.9006
+    level: 7
+    xp: 5.300599999999849
   auraskills/alchemy:
     level: 2
     xp: 473.0
   auraskills/enchanting:
     level: 0
     xp: 0.0
-mana: 30.0
+mana: 31.200000000000003
 action_bar:
   idle: true
 trait_modifiers:
