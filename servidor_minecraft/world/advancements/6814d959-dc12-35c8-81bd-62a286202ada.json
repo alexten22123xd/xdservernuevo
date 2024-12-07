@@ -2474,6 +2474,7 @@
     "criteria": {
       "silver_birch_forest": "2024-10-27 07:35:46 +0000",
       "shrubland": "2024-10-27 06:15:20 +0000",
+      "redstone_abyss": "2024-12-07 05:42:56 +0000",
       "fen": "2024-11-10 23:51:40 +0000",
       "pine_taiga": "2024-10-27 07:05:45 +0000",
       "autumnal_maple_forest": "2024-10-27 06:15:06 +0000",
@@ -2869,18 +2870,20 @@
       "mycotoxic_undergrowth": "2024-10-27 06:25:30 +0000",
       "blackstone_basin": "2024-10-27 06:26:12 +0000",
       "infernal_holt": "2024-10-27 06:26:46 +0000",
+      "redstone_abyss": "2024-12-07 05:42:56 +0000",
       "glistering_meadow": "2024-10-31 22:14:13 +0000"
     },
-    "done": false
+    "done": true
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
       "minecraft:crimson_forest": "2024-10-27 06:26:10 +0000",
       "minecraft:nether_wastes": "2024-10-27 06:25:41 +0000",
       "minecraft:soul_sand_valley": "2024-10-31 22:33:07 +0000",
-      "minecraft:basalt_deltas": "2024-10-31 22:15:22 +0000"
+      "minecraft:basalt_deltas": "2024-10-31 22:15:22 +0000",
+      "minecraft:warped_forest": "2024-12-07 05:34:15 +0000"
     },
-    "done": false
+    "done": true
   },
   "regions_unexplored:downer": {
     "criteria": {
@@ -6977,6 +6980,7 @@
   },
   "nova_structures:nether/find_nether_skeleton": {
     "criteria": {
+      "nova_structures:nether_skeleton_tower_crimson": "2024-12-07 05:42:00 +0000",
       "minecraft:fortress": "2024-10-31 22:14:13 +0000",
       "nova_structures:nether_skeleton_tower_soul": "2024-11-26 06:50:27 +0000",
       "nova_structures:nether_port": "2024-10-31 23:38:16 +0000"
@@ -15667,6 +15671,7 @@
   },
   "nova_structures:nether/find_skeleton_tower": {
     "criteria": {
+      "nova_structures:nether_skeleton_tower_crimson": "2024-12-07 05:42:00 +0000",
       "nova_structures:nether_skeleton_tower_soul": "2024-11-26 06:50:27 +0000"
     },
     "done": false
@@ -17705,6 +17710,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/waxed_exposed_cut_copper_slab_from_honeycomb": {
+    "criteria": {
+      "has_exposed_cut_copper_slab": "2024-12-07 05:41:10 +0000"
+    },
+    "done": true
+  },
   "deeperdarker:recipes/combat/warden_sword_smithing": {
     "criteria": {
       "has_reinforced_echo_shard": "2024-12-07 04:33:26 +0000"
@@ -17771,6 +17782,12 @@
     },
     "done": true
   },
+  "alexsmobs:alexsmobs/straddler": {
+    "criteria": {
+      "killed_by": "2024-12-07 05:50:04 +0000"
+    },
+    "done": true
+  },
   "deeperdarker:recipes/tools/warden_pickaxe_smithing": {
     "criteria": {
       "has_reinforced_echo_shard": "2024-12-07 04:33:26 +0000"
@@ -17813,6 +17830,12 @@
     },
     "done": true
   },
+  "aether:recipes/combat/diamond_helmet_repairing": {
+    "criteria": {
+      "has_diamond_helmet": "2024-12-07 05:38:19 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/limestone_from_stone_types_limestone_stonecutting": {
     "criteria": {
       "has_stone_types_limestone": "2024-12-07 04:36:28 +0000"
@@ -17834,6 +17857,12 @@
   "minecraft:recipes/building_blocks/waxed_exposed_cut_copper_from_waxed_exposed_copper_stonecutting": {
     "criteria": {
       "has_waxed_exposed_copper": "2024-12-07 04:54:59 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/golden_axe_repairing": {
+    "criteria": {
+      "has_golden_axe": "2024-12-07 05:39:06 +0000"
     },
     "done": true
   },
@@ -17897,6 +17926,12 @@
     },
     "done": true
   },
+  "aether:recipes/combat/diamond_boots_repairing": {
+    "criteria": {
+      "has_diamond_boots": "2024-12-07 05:38:19 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/small_limestone_brick_slab_from_stone_types_limestone_stonecutting": {
     "criteria": {
       "has_stone_types_limestone": "2024-12-07 04:36:28 +0000"
@@ -17912,6 +17947,12 @@
   "maidensmerrymaking:easter/root": {
     "criteria": {
       "requirement": "2024-12-07 04:35:39 +0000"
+    },
+    "done": true
+  },
+  "chemlib:recipes/misc/lanthanum_block_to_ingot": {
+    "criteria": {
+      "has_the_recipe": "2024-12-07 05:25:59 +0000"
     },
     "done": true
   },
@@ -18002,6 +18043,12 @@
   "minecraft:recipes/decorations/deepslate_brick_wall": {
     "criteria": {
       "has_deepslate_bricks": "2024-12-07 04:51:12 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/diamond_sword_repairing": {
+    "criteria": {
+      "has_diamond_sword": "2024-12-07 05:38:19 +0000"
     },
     "done": true
   },
@@ -18101,9 +18148,21 @@
     },
     "done": true
   },
+  "minecraft:adventure/salvage_sherd": {
+    "criteria": {
+      "has_sherd": "2024-12-07 05:42:42 +0000"
+    },
+    "done": false
+  },
   "terramity:warden_soul_advancement": {
     "criteria": {
       "warden_soul_advancement_0": "2024-12-07 05:13:07 +0000"
+    },
+    "done": true
+  },
+  "stellarity:nether/a_piece_of_otherworld": {
+    "criteria": {
+      "criteria": "2024-12-07 05:34:15 +0000"
     },
     "done": true
   },

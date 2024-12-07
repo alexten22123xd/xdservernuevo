@@ -17017,6 +17017,12 @@
     },
     "done": true
   },
+  "maidensmerrymaking:halloween/trick_or_treat": {
+    "criteria": {
+      "requirement": "2024-12-07 05:50:53 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/polished_deepslate_wall": {
     "criteria": {
       "has_polished_deepslate": "2024-12-07 04:52:12 +0000"
@@ -17026,6 +17032,12 @@
   "minecraft:recipes/building_blocks/deepslate_bricks": {
     "criteria": {
       "has_polished_deepslate": "2024-12-07 04:52:12 +0000"
+    },
+    "done": true
+  },
+  "maidensmerrymaking:halloween/root": {
+    "criteria": {
+      "requirement": "2024-12-07 05:50:53 +0000"
     },
     "done": true
   },
