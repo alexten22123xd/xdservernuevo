@@ -132,6 +132,7 @@
       "minecraft:snowy_taiga": "2024-10-28 00:20:55 +0000",
       "minecraft:dripstone_caves": "2024-10-29 15:44:09 +0000",
       "minecraft:swamp": "2024-10-27 07:23:09 +0000",
+      "minecraft:grove": "2024-12-07 01:03:35 +0000",
       "minecraft:cold_ocean": "2024-10-27 23:44:31 +0000",
       "minecraft:forest": "2024-10-27 06:02:19 +0000",
       "minecraft:lush_caves": "2024-10-31 15:47:53 +0000",
@@ -17611,6 +17612,18 @@
   "legendary_monsters:nether_root": {
     "criteria": {
       "custom_test_name": "2024-12-06 23:44:29 +0000"
+    },
+    "done": true
+  },
+  "mowziesmobs:kill_ferrous_wroughtnaut": {
+    "criteria": {
+      "ferrous_wroughtnaut": "2024-12-07 00:50:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/map": {
+    "criteria": {
+      "has_compass": "2024-12-07 01:01:26 +0000"
     },
     "done": true
   },
