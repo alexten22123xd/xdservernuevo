@@ -17873,6 +17873,12 @@
     },
     "done": true
   },
+  "refurbished_furniture:recipes/misc/constructing/andesite_stepping_stones": {
+    "criteria": {
+      "has_andesite": "2024-12-07 05:15:38 +0000"
+    },
+    "done": true
+  },
   "deeperdarker:recipes/combat/warden_boots_smithing": {
     "criteria": {
       "has_reinforced_echo_shard": "2024-12-07 04:33:26 +0000"
@@ -18092,6 +18098,12 @@
   "minecraft:recipes/building_blocks/waxed_exposed_cut_copper_slab_from_waxed_exposed_copper_stonecutting": {
     "criteria": {
       "has_waxed_exposed_copper": "2024-12-07 04:54:59 +0000"
+    },
+    "done": true
+  },
+  "terramity:warden_soul_advancement": {
+    "criteria": {
+      "warden_soul_advancement_0": "2024-12-07 05:13:07 +0000"
     },
     "done": true
   },
