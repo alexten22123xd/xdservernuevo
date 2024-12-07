@@ -12679,5 +12679,11 @@
     },
     "done": true
   },
+  "regions_unexplored:recipes/decorations/spruce_shrub": {
+    "criteria": {
+      "has_spruce_sapling": "2024-12-07 02:06:57 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
