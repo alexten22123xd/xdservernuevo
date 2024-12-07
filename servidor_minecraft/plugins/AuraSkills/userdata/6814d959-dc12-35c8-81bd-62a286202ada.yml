@@ -2,19 +2,19 @@ uuid: 6814d959-dc12-35c8-81bd-62a286202ada
 skills:
   auraskills/archery:
     level: 0
-    xp: 14.07
+    xp: 21.07
   auraskills/enchanting:
     level: 0
     xp: 0.0
   auraskills/agility:
     level: 5
-    xp: 2002.3108016208641
+    xp: 2140.115801620864
   auraskills/alchemy:
     level: 0
     xp: 0.0
   auraskills/fighting:
     level: 4
-    xp: 742.3800000000024
+    xp: 1168.0800000000045
   auraskills/foraging:
     level: 2
     xp: 106.93999999999994
@@ -32,7 +32,7 @@ skills:
     xp: 10.200000000000001
   auraskills/defense:
     level: 6
-    xp: 1116.6773402929311
+    xp: 1474.2791592359536
 mana: 26.0
 action_bar:
   idle: true
