@@ -16896,12 +16896,6 @@
     },
     "done": true
   },
-  "twilightforest:recipes/decorations/wood/twilight_oak_banister": {
-    "criteria": {
-      "has_item": "2024-12-06 23:58:01 +0000"
-    },
-    "done": true
-  },
   "twilightforest:recipes/redstone/wood/twilight_oak_door": {
     "criteria": {
       "has_item": "2024-12-06 23:57:10 +0000"
@@ -16911,12 +16905,6 @@
   "twilightforest:recipes/building_blocks/wood/twilight_oak_stairs": {
     "criteria": {
       "has_item": "2024-12-06 23:57:10 +0000"
-    },
-    "done": true
-  },
-  "galosphere:recipes/tools/glow_flare": {
-    "criteria": {
-      "has_copper_ingot": "2024-12-07 00:05:38 +0000"
     },
     "done": true
   },
@@ -16932,12 +16920,6 @@
     },
     "done": true
   },
-  "aether:recipes/combat/golden_boots_repairing": {
-    "criteria": {
-      "has_golden_boots": "2024-12-07 00:09:10 +0000"
-    },
-    "done": true
-  },
   "twilightforest:recipes/decorations/wood/twilight_oak_chest": {
     "criteria": {
       "has_item": "2024-12-06 23:57:10 +0000"
@@ -16947,12 +16929,6 @@
   "twilightforest:recipes/redstone/wood/twilight_oak_gate": {
     "criteria": {
       "has_item": "2024-12-06 23:57:10 +0000"
-    },
-    "done": true
-  },
-  "galosphere:recipes/combat/silver_bomb": {
-    "criteria": {
-      "has_gunpowder": "2024-12-07 00:05:41 +0000"
     },
     "done": true
   },
@@ -16977,6 +16953,30 @@
   "twilightforest:recipes/redstone/wood/twilight_oak_plate": {
     "criteria": {
       "has_item": "2024-12-06 23:57:10 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/wood/twilight_oak_banister": {
+    "criteria": {
+      "has_item": "2024-12-06 23:58:01 +0000"
+    },
+    "done": true
+  },
+  "galosphere:recipes/tools/glow_flare": {
+    "criteria": {
+      "has_copper_ingot": "2024-12-07 00:05:38 +0000"
+    },
+    "done": true
+  },
+  "galosphere:recipes/combat/silver_bomb": {
+    "criteria": {
+      "has_gunpowder": "2024-12-07 00:05:41 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/golden_boots_repairing": {
+    "criteria": {
+      "has_golden_boots": "2024-12-07 00:09:10 +0000"
     },
     "done": true
   },

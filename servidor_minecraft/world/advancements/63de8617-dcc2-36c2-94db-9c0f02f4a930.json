@@ -12589,9 +12589,21 @@
     },
     "done": true
   },
-  "legendary_monsters:locate_ancient_stronghold": {
+  "galosphere:recipes/tools/glow_flare": {
     "criteria": {
-      "ancient_stronghold": "2024-12-07 01:15:50 +0000"
+      "has_copper_ingot": "2024-12-07 01:01:01 +0000"
+    },
+    "done": true
+  },
+  "legendary_monsters:defeat_ambusher": {
+    "criteria": {
+      "ambusher": "2024-12-07 01:07:21 +0000"
+    },
+    "done": true
+  },
+  "legendary_monsters:defeat_spiky_bug": {
+    "criteria": {
+      "spiky_bug": "2024-12-07 01:07:26 +0000"
     },
     "done": true
   },
@@ -12607,21 +12619,9 @@
     },
     "done": true
   },
-  "galosphere:recipes/tools/glow_flare": {
+  "legendary_monsters:locate_ancient_stronghold": {
     "criteria": {
-      "has_copper_ingot": "2024-12-07 01:01:01 +0000"
-    },
-    "done": true
-  },
-  "dungeons_arise:find_small_blimp": {
-    "criteria": {
-      "location0": "2024-12-07 01:21:54 +0000"
-    },
-    "done": true
-  },
-  "legendary_monsters:defeat_spiky_bug": {
-    "criteria": {
-      "spiky_bug": "2024-12-07 01:07:26 +0000"
+      "ancient_stronghold": "2024-12-07 01:15:50 +0000"
     },
     "done": true
   },
@@ -12637,9 +12637,45 @@
     },
     "done": true
   },
-  "legendary_monsters:defeat_ambusher": {
+  "dungeons_arise:find_small_blimp": {
     "criteria": {
-      "ambusher": "2024-12-07 01:07:21 +0000"
+      "location0": "2024-12-07 01:21:54 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/smooth_quartz_slab": {
+    "criteria": {
+      "has_the_recipe": "2024-12-07 01:28:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz_slab": {
+    "criteria": {
+      "has_smooth_quartz": "2024-12-07 01:28:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz_stairs_from_smooth_quartz_stonecutting": {
+    "criteria": {
+      "has_smooth_quartz": "2024-12-07 01:28:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz_stairs": {
+    "criteria": {
+      "has_smooth_quartz": "2024-12-07 01:28:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz_slab_from_smooth_quartz_stonecutting": {
+    "criteria": {
+      "has_smooth_quartz": "2024-12-07 01:28:33 +0000"
+    },
+    "done": true
+  },
+  "immersive_armors:recipes/misc/steampunk": {
+    "criteria": {
+      "has_item": "2024-12-07 01:29:35 +0000"
     },
     "done": true
   },

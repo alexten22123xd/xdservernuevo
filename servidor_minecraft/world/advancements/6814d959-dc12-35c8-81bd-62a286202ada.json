@@ -17591,6 +17591,12 @@
     },
     "done": true
   },
+  "grimoireofgaia:main/witch": {
+    "criteria": {
+      "kill": "2024-12-07 01:32:04 +0000"
+    },
+    "done": true
+  },
   "legendary_monsters:end_root": {
     "criteria": {
       "custom_test_name": "2024-12-06 23:44:29 +0000"
@@ -17603,9 +17609,21 @@
     },
     "done": true
   },
+  "galosphere:recipes/misc/silver_ingot_from_smelting_raw_silver": {
+    "criteria": {
+      "has_raw_silver": "2024-12-07 01:47:34 +0000"
+    },
+    "done": true
+  },
   "galosphere:recipes/decorations/gilded_beads": {
     "criteria": {
       "has_gold_ingot": "2024-12-06 23:54:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/obtain_sniffer_egg": {
+    "criteria": {
+      "obtain_sniffer_egg": "2024-12-07 01:48:46 +0000"
     },
     "done": true
   },
@@ -17615,9 +17633,21 @@
     },
     "done": true
   },
+  "galosphere:recipes/misc/silver_ingot_from_blasting_raw_silver": {
+    "criteria": {
+      "has_raw_silver": "2024-12-07 01:47:34 +0000"
+    },
+    "done": true
+  },
   "mowziesmobs:kill_ferrous_wroughtnaut": {
     "criteria": {
       "ferrous_wroughtnaut": "2024-12-07 00:50:48 +0000"
+    },
+    "done": true
+  },
+  "galosphere:recipes/misc/raw_silver_block": {
+    "criteria": {
+      "has_raw_silver": "2024-12-07 01:47:34 +0000"
     },
     "done": true
   },
@@ -17642,6 +17672,18 @@
   "galosphere:recipes/combat/silver_bomb": {
     "criteria": {
       "has_gunpowder": "2024-12-06 23:55:20 +0000"
+    },
+    "done": true
+  },
+  "immersive_armors:recipes/misc/steampunk": {
+    "criteria": {
+      "has_item": "2024-12-07 01:26:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/recovery_compass": {
+    "criteria": {
+      "has_echo_shard": "2024-12-07 01:51:37 +0000"
     },
     "done": true
   },
